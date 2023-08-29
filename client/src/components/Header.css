@@ -1,0 +1,28 @@
+.navbar {
+    background-color: aquamarine;
+    /* float: left; */
+}
+
+.tech .art {
+    display: inline-block;
+    background-color: salmon;
+}
+
+
+.art-menu {
+    background-color: pink;
+    /* height : 0px; */
+}
+
+.art-menu.show-menu {
+    background-color: blue;
+
+}
+
+.tech-menu {
+    background-color: pink;
+}
+
+.tech-menu.show-menu {
+    background-color: blue;
+}

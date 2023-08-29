@@ -1,44 +1,40 @@
-import React from 'react';
-import {
-  Nav,
-  NavLink,
-  NavMenu,
-  NavBtn,
-  NavBtnLink,
-} from './HeaderElements';
+import React, {useState} from 'react';
+import Logo from './Logo'
+import DropdownOption from './DropdownOption'
+import { IoIosArrowDown ,IoIosArrowUp } from 'react-icons/io';
+import './Header.css'
+
 
 export default function Header() {
+    const [isArtBarOpen, setArtBar] = useState(false);
+    const [isTechBarOpen, setTechBar] = useState(false);
+
     return (
-        <>
-          <Nav>
-            {/* <Bars /> */}
-      
-            <NavMenu>
-              <NavLink to='/about' activeStyle>
-                About
-              </NavLink>
-              <NavLink to='/events' activeStyle>
-                Events
-              </NavLink>
-              <NavLink to='/annual' activeStyle>
-                Annual Report
-              </NavLink>
-              <NavLink to='/team' activeStyle>
-                Teams
-              </NavLink>
-              <NavLink to='/blogs' activeStyle>
-                Blogs
-              </NavLink>
-              <NavLink to='/sign-up' activeStyle>
-                Sign Up
-              </NavLink>
-              {/* Second Nav */}
-              {/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
-            </NavMenu>
-            <NavBtn>
-              <NavBtnLink to='/signin'>Sign In</NavBtnLink>
-            </NavBtn>
-          </Nav>
-        </>
+        <div className="navbar"> 
+        <Logo/>
+        <div className="art"> 
+            <button className="button" onClick={() => setArtBar((prev) => !prev)}> 
+                art
+                {isArtBarOpen ? <IoIosArrowUp />: <IoIosArrowDown />}
+            </button>
+        <ul className={`art-menu${isArtBarOpen ? ' show-menu' : ''}`}>  
+        design 
+        animation 
+        figure 
+        deep cuts </ul>
+        </div>
+        <div className="tech" onClick={() => setTechBar((prev) => !prev)}> 
+            <button className="button"> 
+                tech
+                {isTechBarOpen ? <IoIosArrowUp />: <IoIosArrowDown />} 
+            </button>
+            <ul className={`tech-menu${isTechBarOpen ? ' show-menu' : ''}`}>  
+        software past projects </ul>
+        </div>
+        <div className="about"> 
+            about 
+        </div>
+        </div>
       );
-    }
+    };
+    
