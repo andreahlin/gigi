@@ -1,10 +1,15 @@
 import React from 'react';
-import Header from "../components/Header"
 import './Global.css'
 
 
 export default function FigurePage() {
-    return (
-        <div className="desktop"><Header/> Figure</div>
-          );
-    }
+  return (
+    <div className="desktop">
+      <div className="layout">
+        <h1 className="page-title">
+          Figure
+        </h1>
+      </div>
+    </div>
+  );
+}

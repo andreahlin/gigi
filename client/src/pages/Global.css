@@ -10,16 +10,17 @@
   }
 
 .layout {
-  background-color: green;
+  /* background-color: green; */
   margin: auto;
   /* min-height: 50vh; */
   width: 70%;
-  z-index: -1;
 }
 
 .page-title {
-  background-color: white;
+  /* background-color: white; */
   text-align: center;
-  font-family:"Robobto Slab";
+  font-family:"Roboto Slab";
   text-transform: uppercase;
+  letter-spacing: .15rem;
+  font-size: 28px;
 }

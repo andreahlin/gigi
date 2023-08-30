@@ -1,9 +1,14 @@
 import React from 'react';
-import Header from "../components/Header"
 import './Global.css'
 
 export default function PastProjectsPage() {
-    return (
-        <div className="desktop"><Header/> Past Projects</div>
-          );
-    }
+  return (
+    <div className="desktop">
+      <div className="layout">
+        <h1 className="page-title">
+          Past Projects
+        </h1>
+      </div>
+    </div>
+  );
+}

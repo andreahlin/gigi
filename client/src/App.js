@@ -14,15 +14,16 @@ import PastProjectsPage from "./pages/PastProjectsPage"
 export default function App() {
   return (
       <Routes>
-        <Route path="/" element={< LandingPage />}/>
-        <Route exact path="/home" element={< HomePage />} />
-        <Route exact path="/about" element={< AboutPage />} />
-        <Route exact path="/animation" element={< AnimationPage />}/>
-        <Route exact path="/deepcuts" element={< DeepCutsPage />}/>
-        <Route exact path="/design" element={< DesignPage />}/>
-        <Route exact path="/figure" element={< FigurePage />}/>
-        <Route exact path="/software" element={< SoftwarePage />}/>
-        <Route exact path="/projects" element={< PastProjectsPage />}/>
+        <Route path='/' element={< LandingPage />}/>
+        <Route path='home' element={< HomePage />}>
+          <Route path='about' element={< AboutPage />} />
+          <Route path='animation' element={< AnimationPage />}/>
+          <Route path='deepcuts' element={< DeepCutsPage />}/>
+          <Route path='design' element={< DesignPage />}/>
+          <Route path='figure' element={< FigurePage />}/>
+          <Route path='software' element={< SoftwarePage />}/>
+          <Route path='projects' element={< PastProjectsPage />}/>
+         </Route>
         {/* todo route 404 */}
         <Route path="*" element={<Navigate to ="/" />}/>
       </Routes>
