@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
 import Logo from './Logo'
-import DropdownOption from './DropdownOption'
-import { IoIosArrowDown ,IoIosArrowUp } from 'react-icons/io';
 import './Header.css'
+import carrot from '../assets/carrot-navy.png' 
+import { Link } from 'react-router-dom'
 
 
 export default function Header() {
@@ -11,29 +11,30 @@ export default function Header() {
 
     return (
         <div className="navbar"> 
-        <Logo/>
+        <div className="logo"> 
+        <Link className = "page-link"  to="/"> <Logo/> </Link>
+        </div>
         <div className="art"> 
             <button className="button" onClick={() => setArtBar((prev) => !prev)}> 
                 art
-                {isArtBarOpen ? <IoIosArrowUp />: <IoIosArrowDown />}
+                <img className={`carrot${isArtBarOpen? ' up' : '' } `} alt="carrot" src={carrot} />
             </button>
         <ul className={`art-menu${isArtBarOpen ? ' show-menu' : ''}`}>  
-        design 
-        animation 
-        figure 
-        deep cuts </ul>
+        <Link className = "page-link" to="/design" > design </Link>
+        <Link className = "page-link" to="/animation"> animation </Link> 
+        <Link className = "page-link" to="/figure">figure </Link> 
+        <Link className = "page-link" to="/deepcuts"> deep cuts </Link> </ul>
         </div>
-        <div className="tech" onClick={() => setTechBar((prev) => !prev)}> 
-            <button className="button"> 
+        <div className="tech"> 
+            <button className="button" onClick={() => setTechBar((prev) => !prev)}> 
                 tech
-                {isTechBarOpen ? <IoIosArrowUp />: <IoIosArrowDown />} 
+                <img className={`carrot${isTechBarOpen? ' up' : '' } `} alt="carrot" src={carrot} />
             </button>
             <ul className={`tech-menu${isTechBarOpen ? ' show-menu' : ''}`}>  
-        software past projects </ul>
-        </div>
-        <div className="about"> 
-            about 
-        </div>
+        <Link className = "page-link" to="/software"> software </Link>
+        <Link className = "page-link" to="/projects"> past projects </Link> </ul>
+        </div> 
+        <Link className = "about-link" to="/about"> about </Link>
         </div>
       );
     };

@@ -1,8 +1,9 @@
 import React from "react";
+import './Global.css'
 
 export default function AboutPage() {
     return (
-        <div>
+        <div className="desktop">
          <h1>WHO IS SHE?</h1>
           <p>I am a maker! Depending on the day, that could look like building well-designed software, 
               creating artwork, or experimenting with different mediums, both digital and analog. I 

@@ -1,28 +1,95 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+
 .navbar {
-    background-color: aquamarine;
-    /* float: left; */
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    font-family: "Nunito";
+    height: 70px;
+    justify-content: center;
+    display: flex;
+    padding-top: 1vmin;
+    color: #32347a;
 }
 
-.tech .art {
-    display: inline-block;
-    background-color: salmon;
+.button {
+    background-color: white;
+    color: #32347a;
+    border:none;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px 20px;
+    font-family: "Nunito";
 }
 
+.art {
+    padding-left: 20vmax;
+    padding-right: 5px;
+}
+
+.carrot {
+    display: inline;
+    width: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    transition-duration: 0.15s;
+    transition-property: transform;
+}
+
+.carrot.up {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+;
+}
+
+.about-link {
+    text-decoration: none;
+    color: #32347a;
+    height: 1.5em;
+    padding: 10px 20px;
+}
+
+.about-link:hover {
+    text-decoration: underline;
+}
 
 .art-menu {
-    background-color: pink;
-    /* height : 0px; */
+    visibility: hidden;
+    padding: 10px;
+    width: 100px;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.3s ease-in-out;  
 }
 
 .art-menu.show-menu {
-    background-color: blue;
-
+    visibility: visible; 
+    background-color: pink;
+    border-radius: 15px;
+    opacity: 1;  
 }
 
 .tech-menu {
-    background-color: pink;
+    visibility: hidden;
+    padding: 10px;
+    width: 100px;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.3s ease-in-out;  
 }
 
 .tech-menu.show-menu {
-    background-color: blue;
+    visibility: visible;
+    background-color: pink;
+    border-radius: 15px;
+    opacity: 1;  
+}
+
+.page-link {
+    text-decoration: none;
+    color: #32347a;
+    display: block;
+}
+
+.page-link:hover {
+    text-decoration: underline;
 }
