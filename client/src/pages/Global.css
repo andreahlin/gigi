@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito);
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono);
 
 .desktop {
     background-color: #fff6f6;
@@ -12,12 +13,11 @@
 .layout {
   /* background-color: green; */
   margin: auto;
-  /* min-height: 50vh; */
   width: 70%;
+  margin-top: 70px;
 }
 
 .page-title {
-  /* background-color: white; */
   text-align: center;
   font-family:"Roboto Slab";
   text-transform: uppercase;

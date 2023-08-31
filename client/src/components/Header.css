@@ -1,7 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito);
 
 .navbar {
-    /* background-color: aquamarine; */
     display: flex;
     flex-direction: row;
     font-size: 16px;
@@ -23,9 +22,16 @@
     font-family: "Nunito";
 }
 
-.art {
-    padding-left: 20vmax;
-    padding-right: 5px;
+.button:hover {
+    cursor: pointer;
+}
+
+.space {
+    width: 25vmax;
+}
+
+.button-layout {
+    width: 100px;
 }
 
 .carrot {
@@ -47,45 +53,53 @@
     text-decoration: none;
     color: #32347a;
     height: 1.5em;
-    padding: 10px 20px;
+    padding: 10px 25px;
 }
 
 .about-link:hover {
     text-decoration: underline;
 }
 
-.art-menu {
-    visibility: hidden;
+.info-box {
     padding: 10px;
     width: 100px;
-    opacity: 0;
-    transition: visibility 0s, opacity 0.3s ease-in-out; 
     position: relative;
-    z-index: 100; 
-}
-
-.art-menu.show-menu {
-    visibility: visible; 
-    background-color: pink;
+    font-size: 14px;
+    background-color: #FFD3D3;
     border-radius: 15px;
-    opacity: 1;  
+    margin-top: 0px;
+
+    animation: fadeIn .5s;
+    -webkit-animation: fadeIn .5s;
+    -moz-animation: fadeIn .5s;
+    -o-animation: fadeIn .5s;
+    -ms-animation: fadeIn .5s;
 }
 
-.tech-menu {
-    visibility: hidden;
-    padding: 10px;
-    width: 100px;
-    opacity: 0;
-    transition: visibility 0s, opacity 0.3s ease-in-out;  
-    z-index: 100; 
-}
-
-.tech-menu.show-menu {
-    visibility: visible;
-    background-color: pink;
-    border-radius: 15px;
-    opacity: 1;  
-}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
 
 .page-link {
     text-decoration: none;

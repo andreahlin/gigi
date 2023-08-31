@@ -10,6 +10,7 @@ import DesignPage from "./pages/DesignPage"
 import FigurePage from "./pages/FigurePage"
 import SoftwarePage from "./pages/SoftwarePage"
 import PastProjectsPage from "./pages/PastProjectsPage"
+import SingleAnimationPage from "./pages/SingleAnimationPage"
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
         <Route path='home' element={< HomePage />}>
           <Route path='about' element={< AboutPage />} />
           <Route path='animation' element={< AnimationPage />}/>
+          <Route path='animation/:id' element={< SingleAnimationPage />}/>
           <Route path='deepcuts' element={< DeepCutsPage />}/>
           <Route path='design' element={< DesignPage />}/>
           <Route path='figure' element={< FigurePage />}/>

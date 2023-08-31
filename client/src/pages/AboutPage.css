@@ -1,7 +1,18 @@
 .about-title {
-    font-family: "Roboto Slab";
+    text-align: left;
     text-transform: uppercase;
     letter-spacing: .15rem;
-    font-size: 36px;
-  
+    font-size: 20px;
+  }
+
+.about-layout {
+    padding-top: 5vmin;
+    margin: auto;
+    width: 600px;
+    font-family:"Roboto Mono";
+    letter-spacing: .15rem;
+}
+
+.about-description {
+    text-align: left;
 }
