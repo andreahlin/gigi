@@ -1,0 +1,26 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono);
+
+.desktop {
+    background-color: #fff6f6;
+    min-height: 100vh;
+    min-width: 100vw;
+    font-family: "Nunito";
+    color: #32347a; 
+  }
+
+.layout {
+  /* background-color: green; */
+  margin: auto;
+  width: 70%;
+  margin-top: 70px;
+}
+
+.page-title {
+  text-align: center;
+  font-family:"Roboto Slab";
+  text-transform: uppercase;
+  letter-spacing: .15rem;
+  font-size: 28px;
+}

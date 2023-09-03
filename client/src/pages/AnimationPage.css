@@ -1,0 +1,30 @@
+.element-still {
+    width: 470px;
+    margin: 10px
+}
+
+.element-still:hover {
+    box-shadow: 0 0 5px 5px #F8E9E9;
+}
+
+.break {
+    width: 25vmax;
+}
+
+.element-title {
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-left: 10px;
+    font-family:"Roboto Mono";
+    font-size: 14px;
+    color: #32347a;
+}
+
+.element {
+    text-decoration: none;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}

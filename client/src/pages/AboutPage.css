@@ -1,0 +1,30 @@
+.about-title {
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: .15rem;
+    font-size: 20px;
+  }
+
+.about-layout {
+    padding-top: 1vmin;
+    margin: auto;
+    width: 600px;
+    font-family:"Roboto Mono";
+    letter-spacing: .15rem;
+}
+
+.about-description {
+    text-align: left;
+}
+
+.about-photo {
+    /* background-color: white; */
+    width: 300px;
+    margin-left: 25px
+    
+}
+
+.contact-info {
+    /* background-color: aquamarine; */
+    display: flex;
+}

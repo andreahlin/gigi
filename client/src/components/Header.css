@@ -1,0 +1,112 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    font-family: "Nunito";
+    height: 70px;
+    justify-content: center;
+    display: flex;
+    padding-top: 1vmin;
+    color: #32347a;
+}
+
+.button {
+    background-color: #fff6f6;
+    color: #32347a;
+    border:none;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px 20px;
+    font-family: "Nunito";
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.space {
+    width: 25vmax;
+}
+
+.button-layout {
+    width: 100px;
+}
+
+.carrot {
+    display: inline;
+    width: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    transition-duration: 0.15s;
+    transition-property: transform;
+}
+
+.carrot.up {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+;
+}
+
+.about-link {
+    text-decoration: none;
+    color: #32347a;
+    height: 1.5em;
+    padding: 10px 25px;
+}
+
+.about-link:hover {
+    text-decoration: underline;
+}
+
+.info-box {
+    padding: 10px;
+    width: 100px;
+    position: relative;
+    font-size: 14px;
+    background-color: #FFD3D3;
+    border-radius: 15px;
+    margin-top: 0px;
+
+    animation: fadeIn .5s;
+    -webkit-animation: fadeIn .5s;
+    -moz-animation: fadeIn .5s;
+    -o-animation: fadeIn .5s;
+    -ms-animation: fadeIn .5s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+.page-link {
+    text-decoration: none;
+    color: #32347a;
+    display: block;
+}
+
+.page-link:hover {
+    text-decoration: underline;
+}
