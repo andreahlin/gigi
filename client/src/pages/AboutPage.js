@@ -18,7 +18,8 @@ export default function AboutPage() {
                         <p> Andrea graduated from the University of Pennsylvania with a BSE in computer graphics.
                             She is currently a software engineer at Elsevier. </p>
 
-                        <div className="contact-info"> <p > Want to get in touch? <br/> Let’s be buds! </p>
+                        <div className="contact-info"> <p > Want to get in touch? <br/>
+                        <a className="email-link" href = "mailto: andhualin@gmail.com"><b>Let’s be buds.</b></a> </p>
                         <img className="about-photo" alt="Andrea Lin" src={photo}></img> </div>
                     </div>
                     </div>

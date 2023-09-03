@@ -18,13 +18,21 @@
 }
 
 .about-photo {
-    /* background-color: white; */
     width: 300px;
     margin-left: 25px
-    
 }
 
 .contact-info {
-    /* background-color: aquamarine; */
     display: flex;
+}
+
+.email-link {
+    color: #32347a;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.email-link:hover {
+    text-decoration: underline;
 }
