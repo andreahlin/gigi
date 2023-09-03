@@ -17,7 +17,7 @@ export default function AnimationPage() {
             <p className="element-title"> shadows catching up to each other</p>
           </Link>
           <Link className="element" to="/home/animation/goodbye">
-            <img className="element-still" alt="animation still" src={photo}></img>
+            <img className="element-still" alt="animation still" src='https://rbjesqwdqbrytthnjarh.supabase.co/storage/v1/object/sign/media/flower.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtZWRpYS9mbG93ZXIucG5nIiwiaWF0IjoxNjkzNTk3ODM1LCJleHAiOjE3MjUxMzM4MzV9.LBVmw2Z16qfx90f7QMfp6GxsPyDCGhMhLMQhvVQBNe4&t=2023-09-01T19%3A50%3A35.182Z'></img>
             <p className="element-title"> good bye</p>
           </Link>
         </div>
