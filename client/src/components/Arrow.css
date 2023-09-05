@@ -1,0 +1,20 @@
+.container {
+  display: block;
+  width: fit-content;
+  padding: 10px;
+  text-decoration: none;
+  color: #32347a
+}
+
+.container:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.text {
+  display: inline;
+}
+
+.arrow {
+  margin-left: 5px
+}

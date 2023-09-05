@@ -3,6 +3,8 @@ import './LandingPage.css'
 import './Global.css'
 import { Link } from 'react-router-dom'
 import backgroundDesign from '../assets/homepage-background.png'
+import Arrow from '../components/Arrow.js'
+
 
 export default function LandingPage() {
   return (
@@ -15,7 +17,7 @@ export default function LandingPage() {
             <span className="text-wrapper">.</span>
           </p>
           <p className="welcome-text">welcome to my digital home!</p>
-          <Link className="explore-text" to="home">let’s go explore!</Link>
+          <div className="explore"> <Arrow/> </div>
         </div>
         <img className="space-cuties" alt="background design" src={backgroundDesign} />
       </div>

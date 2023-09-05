@@ -1,0 +1,12 @@
+.project-name {
+  margin-top: 30px;
+  margin-bottom: 5px;
+  font-family:"Roboto Mono";
+  letter-spacing: .15rem;
+  font-size: 16px;
+}
+
+.layout {
+  width: 40%;
+  text-align: center;
+}
