@@ -1,10 +1,25 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './Global.css'
 import photo from '../assets/animation-still.png'
 import './AnimationPage.css'
 import { Link } from 'react-router-dom'
+import { supabase } from '../App.js'
 
 export default function AnimationPage() {
+  const [imageUrl, setImageUrl] = useState("");
+  const [images, setImages] = useState([]);
+
+  useEffect(() => {
+    (async () => {
+      const { data } = await supabase
+        .storage
+        .from('media')
+        .getPublicUrl('flower.png');
+      setImageUrl(data);
+      console.log("use2")
+    })();
+  }, []);
+
   return (
     <div className="desktop">
       <div className="layout">
@@ -17,7 +32,7 @@ export default function AnimationPage() {
             <p className="element-title"> shadows catching up to each other</p>
           </Link>
           <Link className="element" to="/home/animation/goodbye">
-            <img className="element-still" alt="animation still" src='https://rbjesqwdqbrytthnjarh.supabase.co/storage/v1/object/sign/media/flower.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtZWRpYS9mbG93ZXIucG5nIiwiaWF0IjoxNjkzNTk3ODM1LCJleHAiOjE3MjUxMzM4MzV9.LBVmw2Z16qfx90f7QMfp6GxsPyDCGhMhLMQhvVQBNe4&t=2023-09-01T19%3A50%3A35.182Z'></img>
+            <img className="element-still" alt="animation still" src={imageUrl.publicUrl}></img>
             <p className="element-title"> good bye</p>
           </Link>
         </div>

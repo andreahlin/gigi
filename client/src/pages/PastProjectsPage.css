@@ -6,7 +6,8 @@
   font-size: 16px;
 }
 
-.layout {
-  width: 40%;
+.past-projects-layout {
+  margin: auto;
+  width: 65%;
   text-align: center;
 }

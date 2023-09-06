@@ -8,6 +8,7 @@ export default function Software() {
         <h1 className="page-title">
           Software
         </h1>
+        <p> I am currently a software engineer at Elsevier. Cool! </p>
       </div>
     </div>
   );

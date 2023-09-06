@@ -13,8 +13,8 @@ import PastProjectsPage from "./pages/PastProjectsPage"
 import SingleAnimationPage from "./pages/SingleAnimationPage"
 import { createClient } from "@supabase/supabase-js";
 
-export const supabase = createClient("https://rbjesqwdqbrytthnjarh.supabase.co", 
-"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJiamVzcXdkcWJyeXR0aG5qYXJoIiwicm9sZSI6ImFub24iLCJpYXQiOjE2OTM1OTcwMzcsImV4cCI6MjAwOTE3MzAzN30.66JRLQjKQwHYaTWPImQA3oDclq63DiYDWKGzSwAga54");
+export const supabase = createClient("https://rbjesqwdqbrytthnjarh.supabase.co",
+  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJiamVzcXdkcWJyeXR0aG5qYXJoIiwicm9sZSI6ImFub24iLCJpYXQiOjE2OTM1OTcwMzcsImV4cCI6MjAwOTE3MzAzN30.66JRLQjKQwHYaTWPImQA3oDclq63DiYDWKGzSwAga54");
 
 export default function App() {
   return (
