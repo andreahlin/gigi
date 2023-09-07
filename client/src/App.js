@@ -9,7 +9,7 @@ import DeepCutsPage from "./pages/DeepCutsPage"
 import DesignPage from "./pages/DesignPage"
 import FigurePage from "./pages/FigurePage"
 import SoftwarePage from "./pages/SoftwarePage"
-import PastProjectsPage from "./pages/PastProjectsPage"
+import UxPage from "./pages/UxPage"
 import SingleAnimationPage from "./pages/SingleAnimationPage"
 
 export default function App() {
@@ -24,7 +24,7 @@ export default function App() {
           <Route path='design' element={< DesignPage />}/>
           <Route path='figure' element={< FigurePage />}/>
           <Route path='software' element={< SoftwarePage />}/>
-          <Route path='projects' element={< PastProjectsPage />}/>
+          <Route path='ux' element={< UxPage />}/>
          </Route>
         {/* todo route 404 */}
         <Route path="*" element={<Navigate to ="/" />}/>
