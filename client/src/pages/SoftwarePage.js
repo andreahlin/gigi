@@ -11,6 +11,9 @@ export default function Software() {
           <h1 className="page-title">
             Software
           </h1>
+          current roles
+
+          past projects
             <h2 className="project-name"> ANDREA-LIN.COM // 2023 </h2>
             Revamped for the season! Developed with <PiHeartStraightFill /> using Node.js and React.
 
@@ -21,7 +24,7 @@ export default function Software() {
             My goal was to develop a game tool in 3d using an isographic view. I was largely inspired by the game, Monument Valley, because its unique perspective allows for impossible paths to form. Using Unity, I implemented a maze generating algorithm + A* pathfinding algorithm for character navigation.
 
             <h2 className="project-name"> BIOMAKERLAB // 2017 </h2>
-            The Bio.Maker.Lab was a Penn research project led by Professor Orkan Telhan. My role was to develop an interface for the machine made with Raspberry Pis. Using Javascript, HTML/CSS and NodeRed, I developed an interactive interface which controlled the machine remotely while displaying data. I also created the several illustrations that accompanied the data in Photoshop.
+            The Bio.Maker.Lab was a Penn research project led by Professor Orkan Telhan. My role was to develop an interface for the machine made with Raspberry Pi. Using Javascript, HTML/CSS and NodeRed, I developed an interactive interface which controlled the machine remotely while displaying data. I also created the several illustrations that accompanied the data in Photoshop.
 
             <h2 className="project-name">PROCEDURAL PLANETS // 2017 </h2>
             Along with two classmates, I developed a world of procedurally generated planets that were generated procedurally and/or driven procedurally by sound. One of the planets is surrounded in water modeled from Fractal Brownian Motion noise. Youtube demo here!
@@ -34,6 +37,7 @@ export default function Software() {
 
             <h2 className="project-name">FLYING HOME GAME // 2016</h2>
             This was a platformer game I developed my freshman year using the Java Swing library. The user can press the arrows to control a flying crane to collect flowers and avoid obstacles. Graphics drawn with Photoshop, and original music featured!
+            <br/><br/>
         </div>
       </div>
     </div>

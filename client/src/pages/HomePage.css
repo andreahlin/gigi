@@ -1,0 +1,8 @@
+.home-image-layout {
+    display: flex;
+    justify-content: center;
+}
+
+.flower {
+    background-color: black;
+}

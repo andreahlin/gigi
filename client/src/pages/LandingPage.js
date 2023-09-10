@@ -13,7 +13,7 @@ export default function LandingPage() {
         <div className="main-text">
           <p className="hi-my-name-is-andrea">
             <span className="text-wrapper">hi, my name is </span>
-            <Link className="span" to="home/about">andrea</Link>
+            <Link className="span" to="about">andrea</Link>
             <span className="text-wrapper">.</span>
           </p>
           <p className="welcome-text">welcome to my digital home!</p>

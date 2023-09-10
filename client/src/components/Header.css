@@ -62,7 +62,7 @@
 
 .info-box {
     padding: 10px;
-    width: 100px;
+    width: 80px;
     position: relative;
     font-size: 14px;
     background-color: #FFD3D3;
@@ -75,6 +75,10 @@
     -o-animation: fadeIn .5s;
     -ms-animation: fadeIn .5s;
 }
+
+/* .info-box:active {
+    background-color: green;
+} */
 
 @keyframes fadeIn {
     0% { opacity: 0; }

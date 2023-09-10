@@ -7,11 +7,11 @@ import HeaderButton from './HeaderButton'
 export default function Header() {
     return (
         <div className="navbar">
-            <Link className="page-link" to="/"> <Logo/> </Link>
+            <Link className="page-link" to="/home"> <Logo/> </Link>
             <div className ="space"> </div>
-            <HeaderButton name="art" />
             <HeaderButton name="tech" />
-            <Link className="about-link" to="/home/about"> about </Link>
+            <HeaderButton name="art" />
+            <Link className="about-link" to="/about"> about </Link>
         </div>
     );
 };

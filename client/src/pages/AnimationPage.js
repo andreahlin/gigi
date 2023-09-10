@@ -42,21 +42,21 @@ export default function AnimationPage() {
           Animation
         </h1>
         <div className="row">
-          <Link className="element" to="/home/animation/shadows">
+          <Link className="element" to="/art/animation/shadows">
             <img className="element-still" alt="animation still" src={FLYING_HOME_STILL_URL}></img>
             <p className="element-title"> shadows catching up to each other</p>
           </Link>
-          <Link className="element" to="/home/animation/goodbye">
+          <Link className="element" to="/art/animation/goodbye">
             <img className="element-still" alt="animation still" src={FLYING_HOME_STILL_URL}></img>
             <p className="element-title"> good bye</p>
           </Link>
         </div>
         <div className="row">
-          <Link className="element" to="/home/animation/propogate">
+          <Link className="element" to="/art/animation/propogate">
             <img className="element-still" alt="animation still" src={FLYING_HOME_STILL_URL}></img>
             <p className="element-title"> propogate </p>
           </Link>
-          <Link className="element" to="/home/animation/flyinghome">
+          <Link className="element" to="/art/animation/flyinghome">
             <img className="element-still" alt="animation still" src={FLYING_HOME_STILL_URL}></img>
             <p className="element-title"> flying home </p>
           </Link>

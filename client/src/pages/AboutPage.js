@@ -2,10 +2,12 @@ import React from "react";
 import "./AboutPage.css"
 import './Global.css'
 import photo from '../assets/about-image.png'
+import Header from "../components/Header"
 
 export default function AboutPage() {
     return (
         <div className="desktop">
+            <Header />
             <div className="layout">
                 <div className="about-layout">
                     <h1 className="about-title">WHO IS SHE?</h1>
