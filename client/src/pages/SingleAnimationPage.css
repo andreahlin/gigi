@@ -1,11 +1,11 @@
 .video {
-    width: 60vw;
+    width: 65vw;
     display: flex;
     margin: auto;
 }
 
 .video-title {
     text-align: center;
-    font-family:"Roboto Mono";
-    font-size: 14px
+    font-size: 20px;
+    text-transform: capitalize;
 }

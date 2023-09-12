@@ -1,23 +1,35 @@
-.element-still {
-    width: 470px;
-    margin: 10px
+.element {
+    padding: 10px;
+    margin: 20px;
 }
 
-.element-still:hover {
-    box-shadow: 0 0 5px 5px #F8E9E9;
+.element:hover .element-still {
+    outline: 5px solid #32347a;
+    border-radius: 20px;
 }
 
 .break {
     width: 25vmax;
 }
 
+.element-still {
+    width: 450px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
 .element-title {
     text-transform: uppercase;
-    margin-top: 0px;
-    margin-left: 10px;
     font-family:"Roboto Mono";
+    margin-top: 5px;
     font-size: 14px;
+    color: 32347a;
+    text-align: center;
     color: #32347a;
+    padding: 10px;
+    border-radius: 10px;
+
 }
 
 .element {

@@ -1,13 +1,31 @@
-.project-name {
-  margin-top: 30px;
-  margin-bottom: 5px;
-  font-family:"Roboto Mono";
-  letter-spacing: .15rem;
-  font-size: 16px;
-}
-
 .past-projects-layout {
   margin: auto;
   width: 65%;
   text-align: center;
+}
+
+.row { 
+  display: flex;
+  justify-content: center;
+}
+.software-element {
+  border-radius: 10px;
+  outline: 5px solid #32347a;
+  height: 350px;
+  margin: 20px;
+  background-color: white;
+}
+
+.project-name {
+  margin-top: 50px;
+  margin-bottom: 5px;
+  font-family:"Roboto Mono";
+  letter-spacing: .15rem;
+  font-size: 16px;
+  width: 400px
+}
+
+.project-description {
+  padding-left: 10%;
+  padding-right: 10%;
 }

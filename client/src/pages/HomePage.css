@@ -1,3 +1,6 @@
+.home-layout {
+    margin-top: 40px; 
+}
 .background-image-layout {
     display: block;
     margin-left: 360px;
@@ -41,5 +44,10 @@
 }
 
 .arrows {
-    margin-left: 131px;
+    margin-left: 140px;
+    margin-top: 10px
+}
+
+.home-footer {
+    margin-top: 200px;
 }

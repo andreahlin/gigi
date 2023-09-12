@@ -30,7 +30,7 @@ export default function Flower(props) {
             flower = zineFlower
             flowerHover = zineTag
             width = 65;
-            to = "/art/design"
+            to = "/art/zine"
             break;
         case 'sketch':
             flower = sketchFlower

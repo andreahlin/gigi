@@ -24,7 +24,7 @@ export function HeaderButtonInfo(props) {
     if (props.name === "art") {
         return (
             <ul className={props.className} ref={ref}>
-                <Link className="page-link" to="/art/design"> design </Link>
+                <Link className="page-link" to="/art/zine"> zine </Link>
                 <Link className="page-link" to="/art/animation"> animation </Link>
                 <Link className="page-link" to="/art/figure">figure </Link>
                 <Link className="page-link" to="/art/deepcuts"> deep cuts </Link> </ul>

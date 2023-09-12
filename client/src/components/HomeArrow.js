@@ -6,10 +6,9 @@ import { Link } from 'react-router-dom'
 export default function HomeArrow() {
     const [hover, setHover] = useState(false);
     return (
-        <Link className="container" to="home"
+        <img className="arrows"
             onMouseOver={() => setHover(true)}
-            onMouseOut={() => setHover(false)}>
-            <img className="arrows" src={hover ? arrows : arrowsHidden} alt="arrows" width="225" />
-        </Link>
+            onMouseOut={() => setHover(false)}
+            src={hover ? arrows : arrowsHidden} alt="arrows" width="225" />
     )
 }

@@ -1,12 +1,11 @@
 import React from "react";
 import Header from "../components/Header"
-import { Outlet } from "react-router-dom";
 import './Global.css'
 import './HomePage.css'
 import image from '../assets/home-image.png'
 import Flower from "../components/Flower"
 import HomeArrow from "../components/HomeArrow"
-
+import Footer from "../components/Footer"
 export default function HomePage() {
   return (
     <div className="desktop">
@@ -40,6 +39,7 @@ export default function HomePage() {
           <HomeArrow/>
       </div>
     </div>
+    <div className="home-footer"> <Footer /> </div>
     </div>
 
   );

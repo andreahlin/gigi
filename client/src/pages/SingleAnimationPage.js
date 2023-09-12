@@ -11,19 +11,19 @@ export default function SingleAnimationPage() {
 
     switch (id) {
         case 'shadows':
-            video = <video className='video'> <source src={SHADOWS_URL} type="video/mp4"></source> </video>
+            video = <video controls className='video'> <source src={SHADOWS_URL} type="video/mp4"></source> </video>
             title = "shadows catching up to each other";
             break;
         case 'goodbye':
-            video = <video className='video'> <source src={GOODBYE_URL} type="video/mp4"></source> </video>
+            video = <video controls className='video'> <source src={GOODBYE_URL} type="video/mp4"></source> </video>
             title = "good bye";
             break;
         case 'propogate':
-            video = <video className='video'> <source src={PROPOGATE_URL} type="video/mp4"></source> </video>
+            video = <video controls className='video'> <source src={PROPOGATE_URL} type="video/mp4"></source> </video>
             title = "propogate";
             break;
         case 'flyinghome':
-            video = <video className='video'> <source src={FLYING_HOME_URL} type="video/mp4"></source> </video>
+            video = <video controls className='video'> <source src={FLYING_HOME_URL} type="video/mp4"></source> </video>
             title = "flying home";
             break;
         default:
