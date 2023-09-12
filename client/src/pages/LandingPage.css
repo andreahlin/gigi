@@ -93,6 +93,13 @@
 .desktop .span {
   color: #d3373b;
   text-decoration: none;
+  border-radius: 10px;
+}
+
+.span:hover {
+  font-weight: bold;
+  /* color: white;
+  background-color: #d3373b; */
 }
 
 .desktop .space-cuties {

@@ -1,8 +1,45 @@
-.home-image-layout {
-    display: flex;
-    justify-content: center;
+.background-image-layout {
+    display: block;
+    margin-left: 360px;
+    width: 600px;
 }
 
-.flower {
-    background-color: black;
+.art-world-layout {
+    width: fit-content;
+}
+
+.animation-flower-layout {
+    margin-top: -500px;
+    margin-left: 210px;
+}
+
+.zine-flower-layout {
+    margin-top: -165px;
+    margin-left: 140px;
+}
+
+.sketch-flower-layout {
+    margin-top: -20px;
+    margin-left: 70px;
+}
+
+.deep-cuts-flower-layout {
+    margin-top: -175px;
+    margin-left: 55px;
+}
+
+.tech-world-layout {
+    width: fit-content; 
+}
+.software-flower-layout {
+    margin-left: 420px;
+    margin-top: 100px
+}
+.ux-flower-layout {
+    margin-left: 580px;
+    margin-top: -140px;
+}
+
+.arrows {
+    margin-left: 131px;
 }
