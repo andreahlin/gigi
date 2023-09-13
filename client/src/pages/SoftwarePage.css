@@ -13,9 +13,13 @@
   outline: 5px solid #32347a;
   height: 350px;
   margin: 20px;
-  background-color: white;
 }
 
+.software-element:hover {
+  outline: 5px solid #f6e3ad;
+
+}
+/* f6e3ad, b9bba3, eea98b, bcc497, ebd08d, eba279, c0c1a5, f2bd86, e0806d, 85a38c */
 .project-name {
   margin-top: 50px;
   margin-bottom: 5px;

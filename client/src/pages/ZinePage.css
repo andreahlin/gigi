@@ -1,0 +1,65 @@
+.main-image {
+    width: 570px;
+    border-radius: 20px;
+}
+
+.carousel-container:hover {
+    cursor: pointer
+}
+
+.feature-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+.text-container {
+    width: fit-content;
+    height: fit-content;
+    margin-right: 80px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.zine-marker {
+    color: rgb(150, 150, 150);
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: "Roboto Mono"
+}
+
+.zine-title {
+    font-family: "Roboto Slab";
+    font-size: 40px;
+    margin-top: -15px
+}
+
+.zine-description {
+    width: 275px;
+    margin-bottom: 50px;
+}
+
+.txtbooks-link {
+    color: #32347a;
+}
+
+.txtbooks-link:hover {
+    font-weight: bold;
+}
+
+.zine-explanation {
+    text-decoration: none;
+    color: rgb(150, 150, 150);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "Roboto Mono"
+}
+
+.zine-explanation:hover {
+    text-decoration: underline;
+}
+
+.image-container {
+    margin-right: 20px;
+}
