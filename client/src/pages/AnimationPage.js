@@ -9,6 +9,9 @@ export default function AnimationPage() {
   const [imageUrl, setImageUrl] = useState("");
   const [images, setImages] = useState([]);
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   // useEffect(() => {
   //   (async () => {
   //     const { data } = await supabase

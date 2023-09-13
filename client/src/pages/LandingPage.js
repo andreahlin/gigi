@@ -17,7 +17,7 @@ export default function LandingPage() {
             <span className="text-wrapper">.</span>
           </p>
           <p className="welcome-text">welcome to my digital home!</p>
-          <div className="explore"> <Arrow/> </div>
+          <div className="explore"> <Arrow /> </div>
         </div>
         <img className="space-cuties" alt="background design" src={backgroundDesign} />
       </div>

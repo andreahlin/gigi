@@ -11,11 +11,15 @@ import "@egjs/flicking-plugins/dist/arrow.css"
 export default function ZinePage() {
   const plugins = [new Fade(), new AutoPlay({animationDuration: 1000})]
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  
   return (
     <div className="desktop">
       <div className="layout">
-        <div class="feature-container">
-          <div class="text-container">
+        <div className="feature-container">
+          <div className="text-container">
             <p className="zine-marker">zine</p>
             <h1 className="zine-title">
               Existentialism <br />in the City

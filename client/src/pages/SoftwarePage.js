@@ -1,10 +1,14 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './Global.css'
 import './SoftwarePage.css'
 import { PiHeartStraightFill } from 'react-icons/pi'
 import { FLYING_HOME_GAME } from '../MediaUtil'
 
 export default function Software() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []); 
+
   return (
     <div className="desktop">
       <div className="layout">

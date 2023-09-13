@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import Header from "../components/Header"
 import './Global.css'
 import './HomePage.css'
@@ -7,6 +7,10 @@ import Flower from "../components/Flower"
 import HomeArrow from "../components/HomeArrow"
 import Footer from "../components/Footer"
 export default function HomePage() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="desktop">
       <Header />
