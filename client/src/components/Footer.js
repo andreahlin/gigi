@@ -1,5 +1,4 @@
 import React from 'react';
-import Logo from './Logo'
 import './Footer.css'
 import { Link } from 'react-router-dom'
 import { FiCornerDownRight } from 'react-icons/fi'

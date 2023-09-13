@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import "./AboutPage.css"
 import './Global.css'
 import photo from '../assets/about-image.png'
@@ -6,6 +6,10 @@ import Header from "../components/Header"
 import Footer from "../components/Footer"
 
 export default function AboutPage() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
+      
     return (
         <div className="desktop">
             <Header />
