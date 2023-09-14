@@ -48,11 +48,11 @@
 }
 
 #eight {
-  background-color: #c0c1a5;  
+  background-color: #ebd08d;
 }
 
 #nine {
-  background-color: #ebd08d;
+  background-color: #c0c1a5;  
 }
 
 .project-name {
@@ -73,23 +73,9 @@
   color: #32347a;
 }
 
-.maze-image {
+.software-image {
   object-fit: cover;
   height: 100%;
   width: 400px;
-  border-radius: 10px;
-}
-
-.bamboo-image {
-  object-fit: cover;
-  height: 100%;
-  width: 400px;
-  border-radius: 10px;
-}
-
-.bottom-row-image {
-  object-fit: cover;
-  height: 100%;
-  width: 187px;
   border-radius: 10px;
 }

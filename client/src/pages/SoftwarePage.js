@@ -33,7 +33,7 @@ export default function Software() {
               <p className="project-description">My goal was to develop a game tool in 3d using an isographic view. I was largely inspired by the game, Monument Valley, because its unique perspective allows for impossible paths to form. Using <b>Unity</b>, I implemented a <b>maze generating algorithm</b> + A* pathfinding algorithm for character navigation.</p> <p>2019</p>
             </div>
             <div className="software-element" id="four">
-              <img className="maze-image" src={MAZE_PROJECT} alt="procedurally generated bamboo plant" />
+              <img className="software-image" src={MAZE_PROJECT} alt="procedurally generated bamboo plant" />
             </div>
           </div>
 
@@ -50,7 +50,7 @@ export default function Software() {
 
           <div className="row">
             <div className="software-element">
-              <img className="bamboo-image" src={BAMBOO_PROJECT} alt="procedurally generated maze" />
+              <img className="software-image" src={BAMBOO_PROJECT} alt="procedurally generated maze" />
             </div>
             <div className="software-element" id="seven">
               <h2 className="project-name">L-SYSTEMS </h2>
@@ -65,26 +65,21 @@ export default function Software() {
               <p className="project-description"> Using <b>C++</b> and <b>OpenGl</b>, my two teammates and I developed a mini-version of Minecraft. I was responsible for efficient rendering of the terrain, textures and animating textures, procedural rain and snow implementation and sound. </p> <p> 2016</p>
             </div>
             <div className="software-element" id="nine">
+              <img className="software-image" src={MINECRAFT} alt="procedurally generated maze" />
+            </div>
+          </div>
+
+          <div className="row">
+            <div className="software-element" id="eight">
+              <img className="software-image" src={FLYING_HOME_GAME} alt="procedurally generated maze" />
+            </div>
+            <div className="software-element" id="nine">
               <h2 className="project-name">FLYING HOME GAME </h2>
               <p className="project-description"> I developed this platformer game using the <b>Java Swing</b> library. The user can press the arrows to control a flying crane to collect flowers and avoid obstacles. Graphics drawn with Photoshop, and original music featured!</p>
               <p>2016</p>
             </div>
           </div>
 
-          <div className="row">
-            <div className="bottom-row-element">
-              <img className="bottom-row-image" src={PENROSE_GIF} alt="mario in monochrome shader" />
-            </div>
-            <div className="bottom-row-element">
-              <img className="bottom-row-image" src={FLYING_HOME_GAME} alt="mario in monochrome shader" />
-            </div>
-            <div className="bottom-row-element">
-              <img className="bottom-row-image" src={MINECRAFT} alt="mario in monochrome shader" />
-            </div>
-            <div className="bottom-row-element">
-              <img className="bottom-row-image" src={MAZE_PROJECT_2} alt="mario in monochrome shader" />
-            </div>
-          </div>
         </div>
 
       </div>

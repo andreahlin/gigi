@@ -49,4 +49,6 @@
 .email-address {
     font-family: "Roboto Slab";
     font-size: 18px;
+    text-decoration: none;
+    color: #32347a;
 }

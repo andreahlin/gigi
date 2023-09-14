@@ -28,8 +28,8 @@ export default function Footer() {
 
             </div>
             <div className="email-info">
-                <br /> Questions? Concerns? Have a hot take? <b>Get in touch! </b>
-                <p className="email-address">andhualin@gmail.com</p>
+                <br/>Questions? Concerns? Have a hot take? <b>Get in touch! </b>
+                <p><a className="email-address" href="mailto: andhualin@gmail.com">andhualin@gmail.com</a><br/></p>
             </div>
         </div>
     );
