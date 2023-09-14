@@ -2,10 +2,10 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
 @import url(https://fonts.googleapis.com/css?family=Roboto+Mono);
 
+html {
+  background-color: #fff6f6;
+}
 .desktop {
-    background-color: #fff6f6;
-    min-height: 100vh;
-    min-width: 200%;
     font-family: "Nunito";
     color: #32347a;   
     background-size: cover;
