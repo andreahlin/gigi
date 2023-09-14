@@ -29,7 +29,7 @@ export default function App() {
         <Route path='animation/:id' element={< SingleAnimationPage />} />
         <Route path='potpourri' element={< PotpourriPage />} />
         <Route path='zine' element={< ZinePage />} />
-        <Route path='figure' element={< FigurePage />} />
+        <Route path='sketch' element={< FigurePage />} />
       </Route>
       {/* todo route 404 */}
       <Route path="*" element={<Navigate to="/" />} />

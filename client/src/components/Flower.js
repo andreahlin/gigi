@@ -35,7 +35,7 @@ export default function Flower(props) {
         case 'sketch':
             flower = sketchFlower
             flowerHover = sketchTag
-            to = "/art/figure"
+            to = "/art/sketch"
             break;
         case 'deepCuts':
             flower = deepCutsFlower

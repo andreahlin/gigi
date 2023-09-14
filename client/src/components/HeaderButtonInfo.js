@@ -26,7 +26,7 @@ export function HeaderButtonInfo(props) {
             <ul className={props.className} ref={ref}>
                 <Link className="page-link" to="/art/zine"> zine </Link>
                 <Link className="page-link" to="/art/animation"> animation </Link>
-                <Link className="page-link" to="/art/figure">figure </Link>
+                <Link className="page-link" to="/art/sketch">sketch </Link>
                 <Link className="page-link" to="/art/potpourri"> potpourri </Link> </ul>
         );
     } else if (props.name === "tech") {

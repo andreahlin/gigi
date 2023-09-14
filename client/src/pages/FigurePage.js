@@ -11,7 +11,7 @@ export default function FigurePage() {
     <div className="desktop">
       <div className="layout">
         <h1 className="page-title">
-          Figure
+          Sketch
         </h1>
       </div>
     </div>

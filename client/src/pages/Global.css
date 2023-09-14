@@ -5,9 +5,11 @@
 .desktop {
     background-color: #fff6f6;
     min-height: 100vh;
-    min-width: 100vw;
+    min-width: 200%;
     font-family: "Nunito";
     color: #32347a;   
+    background-size: cover;
+    object-fit: cover;
   }
 
 .layout {
