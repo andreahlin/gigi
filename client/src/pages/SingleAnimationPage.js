@@ -7,7 +7,11 @@ import { FLYING_HOME_URL, GOODBYE_URL, SHADOWS_URL, PROPOGATE_URL } from '../Med
 export default function SingleAnimationPage() {
     const id = useParams().id;
     var video;
-    var title = "";
+    var title = ""
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
 
     switch (id) {
         case 'shadows':
@@ -20,7 +24,7 @@ export default function SingleAnimationPage() {
             break;
         case 'propogate':
             video = <video controls className='video'> <source src={PROPOGATE_URL} type="video/mp4"></source> </video>
-            title = "propogate";
+            title = "propagate";
             break;
         case 'flyinghome':
             video = <video controls className='video'> <source src={FLYING_HOME_URL} type="video/mp4"></source> </video>
@@ -30,10 +34,6 @@ export default function SingleAnimationPage() {
             title = "N/A"
     }
 
-    useEffect(() => {
-        window.scrollTo(0, 0);
-      }, []);
-      
     return (
         <div className="desktop">
             <div className="layout">

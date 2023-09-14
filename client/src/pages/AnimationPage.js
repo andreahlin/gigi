@@ -56,9 +56,9 @@ export default function AnimationPage() {
             </Link>
           </div>
           <div className="row">
-            <Link className="element" to="/art/animation/propogate">
+            <Link className="element" to="/art/animation/propagate">
               <img className="element-still" alt="animation still" src={PROPOGATE_STILL_URL}></img>
-              <p className="element-title"> propogate </p>
+              <p className="element-title"> propagate </p>
             </Link>
             <Link className="element" to="/art/animation/flyinghome">
               <img className="element-still" alt="animation still" src={FLYING_HOME_STILL_URL}></img>

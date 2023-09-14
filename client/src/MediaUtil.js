@@ -34,4 +34,11 @@ export const ZINE_14 = CDNURL + ZINE + "Untitled_Artwork 14.jpg";
 export const ZINE_15 = CDNURL + ZINE + "Untitled_Artwork 15.jpg";
 export const ZINE_16 = CDNURL + ZINE + "Untitled_Artwork 16.jpg";
 
-export const FLYING_HOME_GAME = CDNURL + CODE + "120-game-2.png"
+export const FLYING_HOME_GAME = CDNURL + CODE + "120-game-1.png"
+export const MAZE_PROJECT = CDNURL + CODE + "game3.png"
+export const MAZE_PROJECT_2 = CDNURL + CODE + "game2.png"
+export const BAMBOO_PROJECT = CDNURL + CODE + "multiple-branches.png"
+export const SHADERS_PROJECT = CDNURL + CODE + "monochrome.png"
+export const PERSISTANCE_PROJECT = CDNURL + CODE + "persistance-example.png"
+export const PENROSE_GIF = CDNURL + CODE + "reverse-penrose.gif"
+export const MINECRAFT = CDNURL + CODE + "MP3-sun-shot.png"

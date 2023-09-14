@@ -1,13 +1,13 @@
-import React, {useEffect} from 'react';
+import React, { useEffect } from 'react';
 import './Global.css'
 import './SoftwarePage.css'
 import { PiHeartStraightFill } from 'react-icons/pi'
-import { FLYING_HOME_GAME } from '../MediaUtil'
+import { MINECRAFT, MAZE_PROJECT_2, SHADERS_PROJECT, MAZE_PROJECT, BAMBOO_PROJECT, PENROSE_GIF, FLYING_HOME_GAME } from '../MediaUtil'
 
 export default function Software() {
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, []); 
+  }, []);
 
   return (
     <div className="desktop">
@@ -17,56 +17,76 @@ export default function Software() {
             Software
           </h1>
           <div className="row">
-            <div className="software-element">
+            <div className="software-element" id="one">
               <h2 className="project-name"> ANDREA-LIN.COM </h2>
-              <p className="project-description"> Revamped for the season! <br/> Developed with <PiHeartStraightFill /> using <br/> Node.js and React.</p> <p>2023</p>
+              <p className="project-description"> Revamped for the season! <br /> Developed with <PiHeartStraightFill /> using <br /> <b>Node.js</b> and <b>React</b>.</p> <p>2023</p>
             </div>
-            <div className="software-element">
+            <div className="software-element" id="two">
               <h2 className="project-name"> ARCHITECTURE REPORTS  </h2>
-              <p className="project-description">Utilizing the Spring Framework and PostgreSQL, I wrote an application which processed weekly software architecture reports in order to highlight new vulnerabilities that occurred in our system. Developed for internal use at Elsevier.</p> <p> 2020</p>
+              <p className="project-description">Utilizing the <b>Spring Framework</b> and <b>PostgreSQL</b>, I wrote an application which processed weekly software architecture reports in order to highlight new vulnerabilities that occurred in our system. Developed for internal use at Elsevier.</p> <p> 2020</p>
             </div>
           </div>
 
           <div className="row">
-            <div className="software-element">
+            <div className="software-element" id="three">
               <h2 className="project-name"> A.MAZE.ING</h2>
-              <p className="project-description">My goal was to develop a game tool in 3d using an isographic view. I was largely inspired by the game, Monument Valley, because its unique perspective allows for impossible paths to form. Using Unity, I implemented a maze generating algorithm + A* pathfinding algorithm for character navigation.</p> <p>2019</p>
+              <p className="project-description">My goal was to develop a game tool in 3d using an isographic view. I was largely inspired by the game, Monument Valley, because its unique perspective allows for impossible paths to form. Using <b>Unity</b>, I implemented a <b>maze generating algorithm</b> + A* pathfinding algorithm for character navigation.</p> <p>2019</p>
             </div>
-            <div className="software-element">
+            <div className="software-element" id="four">
+              <img className="maze-image" src={MAZE_PROJECT} alt="procedurally generated bamboo plant" />
+            </div>
+          </div>
+
+          <div className="row">
+            <div className="software-element" id="five">
               <h2 className="project-name"> BIOMAKERLAB </h2>
-              <p className="project-description">The Bio.Maker.Lab was a Penn research project. Using Javascript, HTML/CSS and NodeRed, I developed an interactive interface which controlled the machine remotely while displaying data. I also created the several illustrations that accompanied the data in Photoshop.</p> <p>2017</p>
+              <p className="project-description">The Bio.Maker.Lab was a Penn research project. Using <b>Javascript</b>, <b>HTML/CSS</b> and <b>NodeRed</b>, I developed an interactive interface which controlled the machine remotely while displaying data. I also created the several illustrations that accompanied the data in Photoshop.</p> <p>2017</p>
             </div>
-          </div>
-
-          <div className="row">
-            <div className="software-element">
+            <div className="software-element" id="six">
               <h2 className="project-name">PROCEDURAL PLANETS </h2>
-              <p className="project-description"> Along with two classmates, I developed a world of procedurally generated planets that were generated procedurally and/or driven procedurally by sound. One of the planets is surrounded in water modeled from Fractal Brownian Motion noise. Youtube demo here!</p> <p>2017</p>
-            </div>
-            <div className="software-element">
-              <h2 className="project-name">L-SYSTEMS </h2>
-              <p className="project-description">Using Javascript, Three.JS, and WebGL, I created a procedural bamboo plant through a 3D visualization of an L-system. The algorithm takes in the number of branches, an axiom, and degree of variation and outputs a unique plant. Noice! Demo found here.</p> <p>2017</p>
+              <p className="project-description"> Along with two classmates, I developed a world of procedurally generated planets that were generated procedurally and/or driven procedurally by sound. One of the planets is surrounded in water modeled from <b>Fractal Brownian Motion</b> noise. Check out the demo <a className="demo-link" target="_blank" href="https://www.youtube.com/watch?v=yWhc-ZxIrWA"> here</a>! </p> <p>2017</p>
             </div>
           </div>
 
           <div className="row">
             <div className="software-element">
-              <h2 className="project-name">MINECRAFT</h2>
-              <p className="project-description"> Using C++ and OpenGl, my two teammates and I developed a mini-version of Minecraft. I was responsible for efficient rendering of the terrain, textures and animating textures, procedural rain and snow implementation and sound. </p> <p> 2016</p>
+              <img className="bamboo-image" src={BAMBOO_PROJECT} alt="procedurally generated maze" />
             </div>
-            <div className="software-element">
+            <div className="software-element" id="seven">
+              <h2 className="project-name">L-SYSTEMS </h2>
+              <p className="project-description">Using <b>Javascript</b>, <b>Three.JS</b>, and <b>WebGL</b>, I created a procedural bamboo plant through a 3D visualization of an L-system. The algorithm takes in the number of branches, an axiom, and degree of variation and outputs a unique plant each time. Nice! </p> <p>2017</p>
+            </div>
+
+          </div>
+
+          <div className="row">
+            <div className="software-element" id="eight">
+              <h2 className="project-name">MINECRAFT</h2>
+              <p className="project-description"> Using <b>C++</b> and <b>OpenGl</b>, my two teammates and I developed a mini-version of Minecraft. I was responsible for efficient rendering of the terrain, textures and animating textures, procedural rain and snow implementation and sound. </p> <p> 2016</p>
+            </div>
+            <div className="software-element" id="nine">
               <h2 className="project-name">FLYING HOME GAME </h2>
-              <p className="project-description">This was a platformer game I developed my freshman year using the Java Swing library. The user can press the arrows to control a flying crane to collect flowers and avoid obstacles. Graphics drawn with Photoshop, and original music featured!</p>
-              {/* <img className="software-element" alt="flying home game" src={FLYING_HOME_GAME} width="200"></img>  */}
+              <p className="project-description"> I developed this platformer game using the <b>Java Swing</b> library. The user can press the arrows to control a flying crane to collect flowers and avoid obstacles. Graphics drawn with Photoshop, and original music featured!</p>
               <p>2016</p>
             </div>
           </div>
 
-
-
+          <div className="row">
+            <div className="bottom-row-element">
+              <img className="bottom-row-image" src={PENROSE_GIF} alt="mario in monochrome shader" />
+            </div>
+            <div className="bottom-row-element">
+              <img className="bottom-row-image" src={FLYING_HOME_GAME} alt="mario in monochrome shader" />
+            </div>
+            <div className="bottom-row-element">
+              <img className="bottom-row-image" src={MINECRAFT} alt="mario in monochrome shader" />
+            </div>
+            <div className="bottom-row-element">
+              <img className="bottom-row-image" src={MAZE_PROJECT_2} alt="mario in monochrome shader" />
+            </div>
+          </div>
         </div>
 
-        <br /><br />
       </div>
     </div>
   );

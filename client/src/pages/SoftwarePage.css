@@ -10,26 +10,86 @@
 }
 .software-element {
   border-radius: 10px;
-  outline: 5px solid #32347a;
   height: 350px;
+  width: 400px;
   margin: 20px;
 }
 
-.software-element:hover {
-  outline: 5px solid #f6e3ad;
-
+.bottom-row-element {
+  border-radius: 10px;
+  height: 187px;
+  width: 187px;
+  margin: 15px;
+  background-color: white;
 }
-/* f6e3ad, b9bba3, eea98b, bcc497, ebd08d, eba279, c0c1a5, f2bd86, e0806d, 85a38c */
+
+#one {
+  background-color: #f6e3ad;
+}
+
+#two {
+  background-color: #eea98b;
+}
+
+#three {
+  background-color: #85a38c;
+}
+
+#five {
+  background-color: #e0806d;
+}
+
+#six {
+ background-color: #bcc497;
+}
+
+#seven {
+  background-color: #eba279;
+}
+
+#eight {
+  background-color: #c0c1a5;  
+}
+
+#nine {
+  background-color: #ebd08d;
+}
+
 .project-name {
   margin-top: 50px;
   margin-bottom: 5px;
   font-family:"Roboto Mono";
   letter-spacing: .15rem;
   font-size: 16px;
-  width: 400px
+  width: 400px;
 }
 
 .project-description {
   padding-left: 10%;
   padding-right: 10%;
+}
+
+.demo-link {
+  color: #32347a;
+}
+
+.maze-image {
+  object-fit: cover;
+  height: 100%;
+  width: 400px;
+  border-radius: 10px;
+}
+
+.bamboo-image {
+  object-fit: cover;
+  height: 100%;
+  width: 400px;
+  border-radius: 10px;
+}
+
+.bottom-row-image {
+  object-fit: cover;
+  height: 100%;
+  width: 187px;
+  border-radius: 10px;
 }
