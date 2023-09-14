@@ -5,7 +5,7 @@ import LandingPage from "./pages/LandingPage"
 import HomePage from "./pages/HomePage"
 import AboutPage from "./pages/AboutPage"
 import AnimationPage from "./pages/AnimationPage"
-import DeepCutsPage from "./pages/DeepCutsPage"
+import PotpourriPage from "./pages/PotpourriPage"
 import ZinePage from "./pages/ZinePage"
 import FigurePage from "./pages/FigurePage"
 import SoftwarePage from "./pages/SoftwarePage"
@@ -27,7 +27,7 @@ export default function App() {
       <Route path='art' element={<ArtPage />} >
         <Route path='animation' element={< AnimationPage />} />
         <Route path='animation/:id' element={< SingleAnimationPage />} />
-        <Route path='deepcuts' element={< DeepCutsPage />} />
+        <Route path='potpourri' element={< PotpourriPage />} />
         <Route path='zine' element={< ZinePage />} />
         <Route path='figure' element={< FigurePage />} />
       </Route>

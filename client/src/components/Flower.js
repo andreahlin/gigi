@@ -40,7 +40,7 @@ export default function Flower(props) {
         case 'deepCuts':
             flower = deepCutsFlower
             flowerHover = deepCutsTag
-            to = "/art/deepcuts"
+            to = "/art/potpourri"
             break;
         case 'software':
             flower = softwareFlower

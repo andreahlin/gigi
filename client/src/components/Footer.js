@@ -18,7 +18,7 @@ export default function Footer() {
                     <p>&nbsp;<FiCornerDownRight /><Link className="hot-link" to="/art/animation">animation</Link></p>
                     <p>&nbsp;<FiCornerDownRight /><Link className="hot-link" to="/art/zine">zine</Link></p>
                     <p>&nbsp;<FiCornerDownRight /><Link className="hot-link" to="/art/figure">sketch</Link></p>
-                    <p>&nbsp;<FiCornerDownRight /><Link className="hot-link" to="/art/deepcuts">deep cuts</Link></p>
+                    <p>&nbsp;<FiCornerDownRight /><Link className="hot-link" to="/art/potpourri">potpourri</Link></p>
                 </div>
                 <div className="home-hot-links">
                     <p><BiHome />&nbsp;<Link className="hot-link" to="/home">home</Link></p>

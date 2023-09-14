@@ -1,5 +1,6 @@
 import React, {useEffect} from 'react';
 import './Global.css'
+import './UxPage.css'
 
 export default function UxPage() {
   useEffect(() => {
@@ -12,7 +13,7 @@ export default function UxPage() {
         <h1 className="page-title">
           UX
         </h1>
-        <p> coming soon! </p>
+        <p className="ux-text"> coming soon! </p>
       </div>
     </div>
   );

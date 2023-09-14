@@ -1,7 +1,7 @@
 const CDNURL = "https://rbjesqwdqbrytthnjarh.supabase.co/storage/v1/object/public/media/"
 const ANIMATION = "animation/"
 const SKETCH = "sketch/"
-const DEEPCUTS = "deep cuts/"
+const POTPOURRI = "potpourri/"
 const ZINE = "zine/"
 const CODE = "code/"
 const UX = "ux/"

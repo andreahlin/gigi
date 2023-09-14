@@ -44,7 +44,7 @@ export default function Software() {
             </div>
             <div className="software-element" id="six">
               <h2 className="project-name">PROCEDURAL PLANETS </h2>
-              <p className="project-description"> Along with two classmates, I developed a world of procedurally generated planets that were generated procedurally and/or driven procedurally by sound. One of the planets is surrounded in water modeled from <b>Fractal Brownian Motion</b> noise. Check out the demo <a className="demo-link" target="_blank" href="https://www.youtube.com/watch?v=yWhc-ZxIrWA"> here</a>! </p> <p>2017</p>
+              <p className="project-description"> Along with two classmates, I developed a world of <b>procedurally generated</b> planets that were generated procedurally and/or driven procedurally by sound. One of the planets is surrounded in water modeled from <b>Fractal Brownian Motion</b> noise. Check out the demo <a className="demo-link" target="_blank" href="https://www.youtube.com/watch?v=yWhc-ZxIrWA"> here</a>! </p> <p>2017</p>
             </div>
           </div>
 
@@ -68,20 +68,7 @@ export default function Software() {
               <img className="software-image" src={MINECRAFT} alt="procedurally generated maze" />
             </div>
           </div>
-
-          <div className="row">
-            <div className="software-element" id="eight">
-              <img className="software-image" src={FLYING_HOME_GAME} alt="procedurally generated maze" />
-            </div>
-            <div className="software-element" id="nine">
-              <h2 className="project-name">FLYING HOME GAME </h2>
-              <p className="project-description"> I developed this platformer game using the <b>Java Swing</b> library. The user can press the arrows to control a flying crane to collect flowers and avoid obstacles. Graphics drawn with Photoshop, and original music featured!</p>
-              <p>2016</p>
-            </div>
-          </div>
-
         </div>
-
       </div>
     </div>
   );

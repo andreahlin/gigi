@@ -2,7 +2,7 @@ import React, {useEffect} from 'react';
 import './Global.css'
 
 
-export default function DeepCutsPage() {
+export default function PotpourriPage() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -11,7 +11,7 @@ export default function DeepCutsPage() {
     <div className="desktop">
       <div className="layout">
         <h1 className="page-title">
-          Deep Cuts
+          Potpourri
         </h1>
         <p> here's the good stuff </p>
       </div>
