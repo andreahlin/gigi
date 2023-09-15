@@ -1,0 +1,24 @@
+.andrea-container {
+  display: flex;
+  text-decoration: none;
+  height: 40px;
+}
+
+.andrea-container:hover {
+  cursor: pointer;
+}
+
+.underline {
+  width: 123px;
+  height: 43px;
+  margin-left: -124px;
+
+}
+
+
+.andrea-text {
+  color: #d3373b;
+  font-size: 40px;
+  display: inline;
+  margin-top: -18px;
+}

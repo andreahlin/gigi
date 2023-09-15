@@ -6,6 +6,9 @@ const ZINE = "zine/"
 const CODE = "code/"
 const UX = "ux/"
 
+export const NAME_UNDERLINE = CDNURL + "landing-underline.gif"
+export const NAME_UNDERLINE_HIDDEN = CDNURL + "landing-underline-hidden.png"
+
 export const FLYING_HOME_STILL_URL = CDNURL + ANIMATION + "flying-still.png"
 export const GOODBYE_STILL_URL = CDNURL + ANIMATION + "good-bye-still.png";
 export const PROPOGATE_STILL_URL = CDNURL + ANIMATION + "propogate-still.png"; 
@@ -41,4 +44,4 @@ export const BAMBOO_PROJECT = CDNURL + CODE + "multiple-branches.png"
 export const SHADERS_PROJECT = CDNURL + CODE + "monochrome.png"
 export const PERSISTANCE_PROJECT = CDNURL + CODE + "persistance-example.png"
 export const PENROSE_GIF = CDNURL + CODE + "reverse-penrose.gif"
-export const MINECRAFT = CDNURL + CODE + "MP3-sun-shot.png"
+export const MINECRAFT = CDNURL + CODE + "minecraft-still.png"

@@ -1,6 +1,5 @@
 .home-layout {
     margin-top: 10px; 
-    /* background-color: #9a9b9b; */
     margin-left: 300px;
     width: 815px;
     padding-top: 10px; 
@@ -33,8 +32,8 @@
 }
 
 .deep-cuts-flower-layout {
-    margin-top: -175px;
-    margin-left: 55px;
+    margin-top: -185px;
+    margin-left: 45px;
 }
 
 .tech-world-layout {

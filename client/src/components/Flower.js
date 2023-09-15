@@ -11,6 +11,9 @@ import softwareFlower from '../assets/space-flowers/software-flower.png'
 import softwareTag from '../assets/space-flowers/software-tag.png'
 import uxFlower from '../assets/space-flowers/ux-flower.png'
 import uxTag from '../assets/space-flowers/ux-tag.png'
+import potpourriFlower from '../assets/space-flowers/potpourri-flower.png'
+import potpourriTag from '../assets/space-flowers/potpourri-tag.png'
+
 import './Flower.css'
 import { Link } from 'react-router-dom'
 
@@ -37,10 +40,11 @@ export default function Flower(props) {
             flowerHover = sketchTag
             to = "/art/sketch"
             break;
-        case 'deepCuts':
-            flower = deepCutsFlower
-            flowerHover = deepCutsTag
+        case 'potpourri':
+            flower = potpourriFlower
+            flowerHover = potpourriTag
             to = "/art/potpourri"
+            width = 75;
             break;
         case 'software':
             flower = softwareFlower
@@ -60,7 +64,6 @@ export default function Flower(props) {
             break;
     }
 
-    console.log("to: " + to)
     const [hover, setHover] = useState(false);
 
     return (

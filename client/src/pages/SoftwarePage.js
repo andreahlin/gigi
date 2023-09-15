@@ -33,7 +33,7 @@ export default function Software() {
               <p className="project-description">My goal was to develop a game tool in 3d using an isographic view. I was largely inspired by the game, Monument Valley, because its unique perspective allows for impossible paths to form. Using <b>Unity</b>, I implemented a <b>maze generating algorithm</b> + A* pathfinding algorithm for character navigation.</p> <p>2019</p>
             </div>
             <div className="software-element" id="four">
-              <img className="software-image" src={MAZE_PROJECT} alt="procedurally generated bamboo plant" />
+              <img className="software-image" src={MAZE_PROJECT} alt="procedurally generated maze" />
             </div>
           </div>
 
@@ -50,7 +50,7 @@ export default function Software() {
 
           <div className="row">
             <div className="software-element">
-              <img className="software-image" src={BAMBOO_PROJECT} alt="procedurally generated maze" />
+              <img className="software-image" src={BAMBOO_PROJECT} alt="procedurally generated bamboo plant" />
             </div>
             <div className="software-element" id="seven">
               <h2 className="project-name">L-SYSTEMS </h2>
@@ -62,10 +62,10 @@ export default function Software() {
           <div className="row">
             <div className="software-element" id="eight">
               <h2 className="project-name">MINECRAFT</h2>
-              <p className="project-description"> Using <b>C++</b> and <b>OpenGl</b>, my two teammates and I developed a mini-version of Minecraft. I was responsible for efficient rendering of the terrain, textures and animating textures, procedural rain and snow implementation and sound. </p> <p> 2016</p>
+              <p className="project-description"> Using <b>C++</b> and <b>OpenGl</b>, my two teammates and I developed a mini-version of Minecraft. I was responsible for implementing an efficient terrain rendering algorithm, static and animated texture mapping, and procedurally generated weather. </p> <p> 2016</p>
             </div>
             <div className="software-element" id="nine">
-              <img className="software-image" src={MINECRAFT} alt="procedurally generated maze" />
+              <img className="software-image" src={MINECRAFT} alt="procedurally generatedm inecraft landscape" />
             </div>
           </div>
         </div>
