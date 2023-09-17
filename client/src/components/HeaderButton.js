@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState } from 'react'
 import carrot from '../assets/carrot-navy.png'
-import { HeaderButtonInfo } from './HeaderButtonInfo';
+import { HeaderButtonInfo } from './HeaderButtonInfo'
 
 export default function HeaderButton(props) {
     const [showInfo, setShowInfo] = useState(false);

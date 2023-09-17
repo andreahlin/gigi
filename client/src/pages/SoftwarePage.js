@@ -62,7 +62,7 @@ export default function Software() {
             </div>
             <div className='software-element' id='seven'>
               <h2 className='project-name'>L-SYSTEMS </h2>
-              <p className='project-description'>Using <b>Javascript</b>, <b>Three.JS</b>, and <b>WebGL</b>, I created a procedural bamboo plant through a 3D visualization of an L-system. The algorithm takes in the number of branches, an axiom, and degree of variation and outputs a unique plant each time. Nice! </p> <p>2017</p>
+              <p className='project-description'>Using <b>Javascript</b>, <b>Three.JS</b>, and <b>WebGL</b>, I created a procedural bamboo plant through a 3D visualization of an L-system. The algorithm takes in the number of branches, an axiom, and degree of variation and outputs a unique plant each time. </p> <p>2017</p>
             </div>
 
           </div>
