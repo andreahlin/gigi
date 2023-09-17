@@ -9,6 +9,7 @@ export default function HomeArrow() {
         <img className="arrows"
             onMouseOver={() => setHover(true)}
             onMouseOut={() => setHover(false)}
-            src={hover ? arrows : arrowsHidden} alt="arrows" width="225" />
+            src={hover ? arrows : arrowsHidden} 
+            alt="arrows" width="225" />
     )
 }

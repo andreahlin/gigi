@@ -1,4 +1,12 @@
 .sketch-text-container {
     text-align: center;
+    width: 62%;
+    margin: auto;
+    margin-bottom: 40px;
 }
 
+.note-description {
+    color: rgb(150, 150, 150);
+    width: 70%;
+    margin: auto;
+}
