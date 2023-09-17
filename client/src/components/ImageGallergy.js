@@ -22,7 +22,7 @@ export default function ImageGallery() {
             src: IMG_2,
             width: '2217',
             height: '2730',
-            caption: 'after Jeremiah Lamenting the Destruction of Jerusalem (Rembrandt) | oil on linen'
+            caption: 'study of Jeremiah Lamenting the Destruction of Jerusalem (Rembrandt) | oil on linen'
         },
         {
             src: IMG_3,
@@ -52,19 +52,19 @@ export default function ImageGallery() {
             src: IMG_7,
             width: '3300',
             height: '5100',
-            caption: 'after Pygmalion and Galatea (Gérôme) | digital painting'
+            caption: 'study of Pygmalion and Galatea (Gérôme) | digital painting'
         },
         {
             src: IMG_8,
             width: '2097',
             height: '2813',
-            caption: 'after Vincent van Gogh (Toulouse-Lautrec) | colored pencil'
+            caption: 'sketch of Vincent van Gogh (Toulouse-Lautrec) | colored pencil'
         },
         {
             src: IMG_9,
             width: '2113',
             height: '2851',
-            caption: 'Johannessen Head of a Girl (Nourse) | graphite'
+            caption: 'sketch of Johannessen Head of a Girl (Nourse) | graphite'
         },
         {
             src: IMG_10,
@@ -136,7 +136,7 @@ export default function ImageGallery() {
             src: IMG_21,
             width: '2601',
             height: '3513',
-            caption: 'Johannessen Bather Stepping into a Tub (Degas) | graphite'
+            caption: 'sketch of Bather Stepping into a Tub (Degas) | graphite'
         },
         {
             src: IMG_22,
@@ -160,7 +160,7 @@ export default function ImageGallery() {
             src: IMG_25,
             width: '2876',
             height: '3909',
-            caption: 'after Man on a Diving Board (Johannessen) | graphite'
+            caption: 'sketch of Man on a Diving Board (Johannessen) | graphite'
         },
         {
             src: IMG_26,
@@ -178,7 +178,7 @@ export default function ImageGallery() {
             src: IMG_28,
             width: '2266',
             height: '3048',
-            caption: 'figure in movement | pastel'
+            caption: 'in movement | pastel'
         },
         {
             src: IMG_29,
