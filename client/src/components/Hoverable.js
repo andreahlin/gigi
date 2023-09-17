@@ -1,12 +1,12 @@
-import React, { useState } from 'react';
+import React, { useState } from 'react'
 import './Hoverable.css'
-import { NAME_UNDERLINE, NAME_UNDERLINE_HIDDEN } from "../MediaUtil"
+import { NAME_UNDERLINE, NAME_UNDERLINE_HIDDEN } from '../MediaUtil'
 import { Link } from 'react-router-dom'
 
 export default function Hoverable(props) {
-    var imageOnHover = "";
-    var image = "";
-    var className = "";
+    var imageOnHover = '';
+    var image = '';
+    var className = '';
 
     switch (props.name) {
         case 'underline':
@@ -19,14 +19,14 @@ export default function Hoverable(props) {
     const [hover, setHover] = useState(false);
 
     return (
-        <Link className="andrea-container" to="/about"
+        <Link className='andrea-container' to='/about'
             onMouseOver={() => setHover(true)}
             onMouseOut={() => setHover(false)}>
-        <p className="andrea-text"> andrea </p>
+        <p className='andrea-text'> andrea </p>
         <img 
             className = {className}
             src={hover ? imageOnHover : image}
-            alt="hoverable" />
+            alt='hoverable' />
         </Link>
     )
 }

@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React, {useEffect} from 'react'
 import './Global.css'
 
 
@@ -8,9 +8,9 @@ export default function PotpourriPage() {
   }, []);
 
   return (
-    <div className="desktop">
-      <div className="layout">
-        <h1 className="page-title">
+    <div className='desktop'>
+      <div className='layout'>
+        <h1 className='page-title'>
           Potpourri
         </h1>
         <p> here's the good stuff </p>

@@ -1,20 +1,20 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-import { BrowserRouter as Router } from 'react-router-dom';
-import { createClient } from "@supabase/supabase-js";
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import './index.css'
+import App from './App'
+import reportWebVitals from './reportWebVitals'
+import { BrowserRouter as Router } from 'react-router-dom'
+import { createClient } from '@supabase/supabase-js'
 
-export const supabase = createClient("https://rbjesqwdqbrytthnjarh.supabase.co",
-  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJiamVzcXdkcWJyeXR0aG5qYXJoIiwicm9sZSI6ImFub24iLCJpYXQiOjE2OTM1OTcwMzcsImV4cCI6MjAwOTE3MzAzN30.66JRLQjKQwHYaTWPImQA3oDclq63DiYDWKGzSwAga54");
+export const supabase = createClient('https://rbjesqwdqbrytthnjarh.supabase.co',
+  'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJiamVzcXdkcWJyeXR0aG5qYXJoIiwicm9sZSI6ImFub24iLCJpYXQiOjE2OTM1OTcwMzcsImV4cCI6MjAwOTE3MzAzN30.66JRLQjKQwHYaTWPImQA3oDclq63DiYDWKGzSwAga54');
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-      <Router>
-        <App />
-      </Router>
+    <Router>
+      <App />
+    </Router>
   </React.StrictMode>
 );
 

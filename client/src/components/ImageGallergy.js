@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import './Arrow.css'
 import './ImageGallery.css'
 import { Gallery, Item } from 'react-photoswipe-gallery'

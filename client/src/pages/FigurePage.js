@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect } from 'react'
 import './Global.css'
 import './FigurePage.css'
 import ImageGallery from '../components/ImageGallergy'

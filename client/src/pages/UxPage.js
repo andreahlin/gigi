@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React, {useEffect} from 'react'
 import './Global.css'
 import './UxPage.css'
 
@@ -8,12 +8,12 @@ export default function UxPage() {
   }, []);
 
   return (
-    <div className="desktop">
-      <div className="layout">
-        <h1 className="page-title">
+    <div className='desktop'>
+      <div className='layout'>
+        <h1 className='page-title'>
           UX
         </h1>
-        <p className="ux-text"> coming soon! </p>
+        <p className='ux-text'> coming soon! </p>
       </div>
     </div>
   );

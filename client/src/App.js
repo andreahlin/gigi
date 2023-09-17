@@ -1,18 +1,18 @@
 import React, {useEffect} from 'react'
-import './App.css';
+import './App.css'
 import { Navigate, Route, Routes } from 'react-router-dom'
-import LandingPage from "./pages/LandingPage"
-import HomePage from "./pages/HomePage"
-import AboutPage from "./pages/AboutPage"
-import AnimationPage from "./pages/AnimationPage"
-import PotpourriPage from "./pages/PotpourriPage"
-import ZinePage from "./pages/ZinePage"
-import FigurePage from "./pages/FigurePage"
-import SoftwarePage from "./pages/SoftwarePage"
-import UxPage from "./pages/UxPage"
-import SingleAnimationPage from "./pages/SingleAnimationPage"
-import TechPage from "./pages/TechPage"
-import ArtPage from "./pages/ArtPage"
+import LandingPage from './pages/LandingPage'
+import HomePage from './pages/HomePage'
+import AboutPage from './pages/AboutPage'
+import AnimationPage from './pages/AnimationPage'
+import PotpourriPage from './pages/PotpourriPage'
+import ZinePage from './pages/ZinePage'
+import FigurePage from './pages/FigurePage'
+import SoftwarePage from './pages/SoftwarePage'
+import UxPage from './pages/UxPage'
+import SingleAnimationPage from './pages/SingleAnimationPage'
+import TechPage from './pages/TechPage'
+import ArtPage from './pages/ArtPage'
 
 export default function App() {
   return (
@@ -31,8 +31,7 @@ export default function App() {
         <Route path='zine' element={< ZinePage />} />
         <Route path='sketch' element={< FigurePage />} />
       </Route>
-      {/* todo route 404 */}
-      <Route path="*" element={<Navigate to="/" />} />
+      <Route path='*' element={<Navigate to='/' />} />
     </Routes>
   )
 }
