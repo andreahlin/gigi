@@ -6,7 +6,7 @@ const ZINE = "zine/"
 const CODE = "code/"
 const UX = "ux/"
 
-export const NAME_UNDERLINE = CDNURL + "landing-underline.gif"
+export const NAME_UNDERLINE = CDNURL + "landing-underline-3.gif"
 export const NAME_UNDERLINE_HIDDEN = CDNURL + "landing-underline-hidden.png"
 
 export const FLYING_HOME_STILL_URL = CDNURL + ANIMATION + "flying-still.png"

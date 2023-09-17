@@ -3,6 +3,14 @@
     border-radius: 20px;
 }
 
+.image-container {
+    background-color: light grey;
+    width: 570px;
+    height: 798px;
+    border-radius: 20px;
+
+}
+
 .carousel-container:hover {
     cursor: pointer
 }

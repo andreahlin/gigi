@@ -37,7 +37,6 @@ export default function Carousel() {
     return (
         <>
             <AliceCarousel
-                responsive={responsive}
                 mouseTracking items={items}
                 controlsStrategy="alternate"
                 autoWidth="500"

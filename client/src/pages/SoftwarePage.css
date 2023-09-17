@@ -35,6 +35,10 @@
   background-color: #85a38c;
 }
 
+#four {
+  background-color: #85a38c;
+}
+
 #five {
   background-color: #e0806d;
 }
@@ -75,7 +79,7 @@
 
 .software-image {
   object-fit: cover;
-  height: 100%;
+  height: 350px;
   width: 400px;
   border-radius: 10px;
 }

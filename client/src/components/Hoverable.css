@@ -2,6 +2,7 @@
   display: flex;
   text-decoration: none;
   height: 40px;
+
 }
 
 .andrea-container:hover {
@@ -9,7 +10,7 @@
 }
 
 .underline {
-  width: 123px;
+  width: 127px;
   height: 43px;
   margin-left: -124px;
 

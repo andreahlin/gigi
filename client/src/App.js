@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import './App.css';
 import { Navigate, Route, Routes } from 'react-router-dom'
 import LandingPage from "./pages/LandingPage"
@@ -13,8 +13,16 @@ import UxPage from "./pages/UxPage"
 import SingleAnimationPage from "./pages/SingleAnimationPage"
 import TechPage from "./pages/TechPage"
 import ArtPage from "./pages/ArtPage"
+import { initLightboxJS } from 'lightbox.js-react'
+import 'lightbox.js-react/dist/index.css'
+
 
 export default function App() {
+  useEffect(() => {
+    initLightboxJS("AB87-C044-3D95-C152", "individual");
+  });
+
+  
   return (
     <Routes>
       <Route path='/' element={< LandingPage />} />

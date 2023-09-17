@@ -1,0 +1,106 @@
+#lg-backdrop-2 {
+  background-color: grey;
+  opacity: .8;
+}
+
+.lg-thumb-outer.lg-thumb-align-middle.lg-grab {
+  background-color: transparent;
+}
+
+.responsive {
+  width: 33%;
+  float:left;
+}
+
+.gallery-container {
+  height: 800px;
+}
+
+@media only screen and (max-width: 800px) {
+  .responsive {
+    width: 49%;
+    float: left;
+  }
+
+  .gallery-container {
+    height: 1500px;
+  }
+}
+
+@media only screen and (max-width:500px) {
+  .responsive {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .gallery-container {
+    height: 3000px;
+  }
+}
+ 
+.square {
+  width: 100%;
+  height: 0;
+  padding-top: 100%;
+  background-image: url("../assets/sketch-edited/profile-self-portrait-colored-pencil.png");
+  background-size: cover;
+  border-bottom: 10px solid #fff6f6;
+  border-left: 10px solid #fff6f6;
+
+}
+
+.square:hover {
+  cursor: pointer;
+}
+
+#square-1 {
+  background-image: url("../assets/sketch-edited/fist-colored-pencil.png");
+}
+
+#square-2 {
+  background-image: url("../assets/sketch-edited/hand-colored-pencil.png");
+}
+
+#square-3 {
+  background-image: url("../assets/sketch-edited/IMG_5459.jpeg");
+}
+
+#square-4 {
+  background-image: url("../assets/sketch-edited/IMG_5616.jpeg");
+}
+
+#square-5 {
+  background-image: url("../assets/sketch-edited/IMG_5886.jpeg");
+}
+
+#square-6 {
+  background-image: url("../assets/sketch-edited/IMG_6223.jpeg");
+}
+
+#square-7 {
+  background-image: url("../assets/sketch-edited/IMG_6321.jpeg");
+}
+
+#square-8 {
+  background-image: url("../assets/sketch-edited/legs-oil.jpeg");
+}
+
+#square-9 {
+  background-image: url("../assets/sketch-edited/profile-self-portrait-colored-pencil.png");
+}
+
+#square-10 {
+  background-image: url("../assets/sketch-edited/profile-self-portrait-colored-pencil.png");
+}
+
+.gallery-image {
+  object-fit: cover;
+  width: 350px;
+  height: 324px;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
