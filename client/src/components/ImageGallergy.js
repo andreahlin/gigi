@@ -16,13 +16,13 @@ export default function ImageGallery() {
             src: IMG_1,
             width: '1034',
             height: '834',
-            caption: 'hand study | colored pencil'
+            caption: 'palm study | colored pencil'
         },
         {
             src: IMG_2,
             width: '2217',
             height: '2730',
-            caption: 'study of Jeremiah Lamenting the Destruction of Jerusalem (Rembrandt) | oil on linen'
+            caption: 'after Jeremiah Lamenting the Destruction of Jerusalem (Rembrandt) | oil on linen'
         },
         {
             src: IMG_3,
@@ -40,7 +40,7 @@ export default function ImageGallery() {
             src: IMG_5,
             width: '2681',
             height: '3737',
-            caption: 'graphite'
+            caption: '20-minute study | graphite'
         },
         {
             src: IMG_6,
@@ -52,19 +52,19 @@ export default function ImageGallery() {
             src: IMG_7,
             width: '3300',
             height: '5100',
-            caption: 'Pygmalion and Galatea (Gérôme) | digital painting'
+            caption: 'after Pygmalion and Galatea (Gérôme) | digital painting'
         },
         {
             src: IMG_8,
             width: '2097',
             height: '2813',
-            caption: 'study of Vincent van Gogh (Toulouse-Lautrec) | colored pencil'
+            caption: 'after Vincent van Gogh (Toulouse-Lautrec) | colored pencil'
         },
         {
             src: IMG_9,
             width: '2113',
             height: '2851',
-            caption: 'study of Head of a Girl (Nourse) | graphite'
+            caption: 'Johannessen Head of a Girl (Nourse) | graphite'
         },
         {
             src: IMG_10,
@@ -106,7 +106,7 @@ export default function ImageGallery() {
             src: IMG_16,
             width: '826',
             height: '908',
-            caption: 'self-portrait | colored pencil'
+            caption: 'self portrait | colored pencil'
         },
         {
             src: IMG_17,
@@ -136,7 +136,7 @@ export default function ImageGallery() {
             src: IMG_21,
             width: '2601',
             height: '3513',
-            caption: 'study of Bather Stepping into a Tub (Degas) | graphite'
+            caption: 'Johannessen Bather Stepping into a Tub (Degas) | graphite'
         },
         {
             src: IMG_22,
@@ -160,7 +160,7 @@ export default function ImageGallery() {
             src: IMG_25,
             width: '2876',
             height: '3909',
-            caption: 'study of Man on a Diving Board (Johannessen) | graphite'
+            caption: 'after Man on a Diving Board (Johannessen) | graphite'
         },
         {
             src: IMG_26,
