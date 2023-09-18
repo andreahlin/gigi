@@ -48,6 +48,17 @@
   border-radius: 10px;
 }
 
+.github-link {
+  color: #32347a;
+  text-decoration: none;
+  /* text-transform: uppercase; */
+  font-size: 18px;
+}
+
+.github-link:hover {
+  text-decoration: underline;
+}
+
 @media only screen and (max-width: 800px) {
   .row {
     display: block;

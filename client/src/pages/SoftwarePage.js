@@ -68,6 +68,8 @@ export default function Software() {
                   <img className='software-image' src={MINECRAFT} alt='procedurally generated Minecraft landscape' />
             </div>
           </div>
+          <br/>
+          <a className="github-link" target="_blank" href=" https://github.com/andreahlin">my github</a>
         </div>
       </div>
     </div>
