@@ -1,6 +1,6 @@
 .past-projects-layout {
   margin: auto;
-  width: 65%;
+  width: 100%;
   text-align: center;
 }
 
@@ -8,6 +8,7 @@
   display: flex;
   justify-content: center;
 }
+
 .software-element {
   border-radius: 10px;
   height: 350px;
@@ -20,8 +21,52 @@
   height: 187px;
   width: 187px;
   margin: 15px;
-  background-color: white;
 }
+
+.project-name {
+  margin-top: 50px;
+  margin-bottom: 5px;
+  font-family:"Roboto Mono";
+  letter-spacing: .15rem;
+  font-size: 16px;
+  width: 400px;
+}
+
+.project-description {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.demo-link {
+  color: #32347a;
+}
+
+.software-image {
+  object-fit: cover;
+  height: 350px;
+  width: 400px;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 800px) {
+  .row {
+    display: block;
+    width: fit-content;
+  }
+
+  .software-element {
+    width: 100%;
+    margin: auto;
+    font-size: 13px;
+    padding-top: 10px;
+    margin-top: 20px;
+  }
+
+  .project-name {
+    width: auto;
+  }
+}
+
 
 #one {
   background-color: #f6e3ad;
@@ -56,30 +101,9 @@
 }
 
 #nine {
-  background-color: #c0c1a5;  
+  background-color: #ebd08d;  
 }
 
-.project-name {
-  margin-top: 50px;
-  margin-bottom: 5px;
-  font-family:"Roboto Mono";
-  letter-spacing: .15rem;
-  font-size: 16px;
-  width: 400px;
-}
-
-.project-description {
-  padding-left: 10%;
-  padding-right: 10%;
-}
-
-.demo-link {
-  color: #32347a;
-}
-
-.software-image {
-  object-fit: cover;
-  height: 350px;
-  width: 400px;
-  border-radius: 10px;
+#ten {
+  background-color: #bcc497;  
 }

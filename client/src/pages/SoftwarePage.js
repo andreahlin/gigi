@@ -30,10 +30,10 @@ export default function Software() {
           <div className='row'>
             <div className='software-element' id='three'>
               <h2 className='project-name'> A.MAZE.ING</h2>
-              <p className='project-description'>My goal was to develop a game tool in 3d using an isographic view. I was largely inspired by the game, Monument Valley, because its unique perspective allows for impossible paths to form. Using <b>Unity</b>, I implemented a <b>maze generating algorithm</b> + A* pathfinding algorithm for character navigation.</p> <p>2019</p>
+              <p className='project-description'>My goal was to develop a game generator tool. I was largely inspired by the game, Monument Valley, because its unique perspective allows for impossible paths to form. Using <b>Unity</b>, I implemented a <b>maze generating algorithm</b> + A* pathfinding algorithm for character navigation.</p> <p>2019</p>
             </div>
             <div className='software-element' id='four'>
-                  <img className='software-image' src={MAZE_PROJECT} alt='A.MAZE.ING procedurally generated maze' /> 
+                  <img className='software-image' src={MAZE_PROJECT} alt='A.MAZE.ING procedurally generated maze'/> 
             </div>
           </div>
 
@@ -49,7 +49,7 @@ export default function Software() {
           </div>
 
           <div className='row'>
-            <div className='software-element'>
+            <div className='software-element' id='ten'>
               <img className='software-image' src={BAMBOO_PROJECT} alt='L-systems bamboo plant' />
             </div>
             <div className='software-element' id='seven'>

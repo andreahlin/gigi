@@ -17,7 +17,7 @@ export default function AnimationPage() {
           Animation
         </h1>
         <div className='content'>
-          <div className='row'>
+          <div className='animation-row'>
             <Link className='element' to='/art/animation/shadows'>
               <img className='element-still' alt='animation still' src={SHADOWS_STILL_URL}></img>
               <p className='element-title'> shadows catching up to each other</p>
@@ -27,7 +27,7 @@ export default function AnimationPage() {
               <p className='element-title'> good bye</p>
             </Link>
           </div>
-          <div className='row'>
+          <div className='animation-row'>
             <Link className='element' to='/art/animation/propagate'>
               <img className='element-still' alt='animation still' src={PROPOGATE_STILL_URL}></img>
               <p className='element-title'> propagate </p>
