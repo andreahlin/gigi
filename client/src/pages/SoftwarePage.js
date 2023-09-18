@@ -3,7 +3,6 @@ import './Global.css'
 import './SoftwarePage.css'
 import { PiHeartStraightFill } from 'react-icons/pi'
 import { MINECRAFT, MAZE_PROJECT, BAMBOO_PROJECT} from '../MediaUtil'
-import LightGallery from 'lightgallery/react' // TODO REMOVE
 
 export default function Software() {
   useEffect(() => {
@@ -34,10 +33,7 @@ export default function Software() {
               <p className='project-description'>My goal was to develop a game tool in 3d using an isographic view. I was largely inspired by the game, Monument Valley, because its unique perspective allows for impossible paths to form. Using <b>Unity</b>, I implemented a <b>maze generating algorithm</b> + A* pathfinding algorithm for character navigation.</p> <p>2019</p>
             </div>
             <div className='software-element' id='four'>
-              <LightGallery>
-                <a href={MAZE_PROJECT}>
-                  <img className='software-image' src={MAZE_PROJECT} alt='A.MAZE.ING procedurally generated maze' /> </a>
-              </LightGallery>
+                  <img className='software-image' src={MAZE_PROJECT} alt='A.MAZE.ING procedurally generated maze' /> 
             </div>
           </div>
 
@@ -54,11 +50,7 @@ export default function Software() {
 
           <div className='row'>
             <div className='software-element'>
-              <LightGallery>
-                <a href={BAMBOO_PROJECT}>
-                  <img className='software-image' src={BAMBOO_PROJECT} alt='L-systems bamboo plant' />
-                </a>
-              </LightGallery>
+              <img className='software-image' src={BAMBOO_PROJECT} alt='L-systems bamboo plant' />
             </div>
             <div className='software-element' id='seven'>
               <h2 className='project-name'>L-SYSTEMS </h2>
@@ -73,11 +65,7 @@ export default function Software() {
               <p className='project-description'> Using <b>C++</b> and <b>OpenGl</b>, my two teammates and I developed a mini-version of Minecraft. I was responsible for implementing an efficient terrain rendering algorithm, static and animated texture mapping, and procedurally generated weather. </p> <p> 2016</p>
             </div>
             <div className='software-element' id='nine'>
-              <LightGallery>
-                <a href={MINECRAFT}>
                   <img className='software-image' src={MINECRAFT} alt='procedurally generated Minecraft landscape' />
-                </a>
-              </LightGallery>
             </div>
           </div>
         </div>

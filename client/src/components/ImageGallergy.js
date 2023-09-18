@@ -46,7 +46,7 @@ export default function ImageGallery() {
             src: IMG_6,
             width: '2963',
             height: '2112',
-            caption: 'garlic | oil'
+            caption: 'garlic and onion | oil'
         },
         {
             src: IMG_7,
