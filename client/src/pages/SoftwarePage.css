@@ -54,12 +54,20 @@
     width: fit-content;
   }
 
+  .project-name {
+    padding-top: 30px;
+  }
+
   .software-element {
     width: 100%;
     margin: auto;
     font-size: 13px;
-    padding-top: 10px;
     margin-top: 20px;
+  }
+
+  .software-image {
+    width: 100%;
+    margin: auto;
   }
 
   .project-name {

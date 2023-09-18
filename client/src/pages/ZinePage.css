@@ -71,3 +71,28 @@
 .image-container {
     margin-right: 20px;
 }
+
+@media only screen and (max-width: 800px) {
+    .zine-title {
+        font-size: 30px;
+    }
+    .feature-container {
+        display: block;
+        width: 100%;
+        /* background-color: white; */
+        height: 450px;
+    }
+
+    .text-container {
+        width: 100%;
+        margin-top: 40px;
+        text-align: center;
+    }
+    .zine-description {
+        width: 100%;
+    }
+    .main-image {
+        visibility: hidden;
+        width: 100px;
+    }
+}

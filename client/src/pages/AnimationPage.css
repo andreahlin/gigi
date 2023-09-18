@@ -1,7 +1,7 @@
 .element {
     padding: 10px;
     margin: 20px;
-    outline: 5px solid black; 
+    /* outline: 5px solid black;  */
 }
 
 .element:hover .element-still {
@@ -44,9 +44,17 @@
 
 @media only screen and (max-width: 800px) {
     .animation-row {
-      /* display: block; */
-      /* width: 100%; */
-      /* margin: auto; */
+      display: block;
+    }
+
+    .element {
+        width: 50%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .element-still {
+        width: 100%;
     }
 }
 

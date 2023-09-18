@@ -1,3 +1,84 @@
+.desktop .main-text {
+  position: relative;
+  width: 70%;
+  top: 240px;
+  left: 320px;
+  white-space: nowrap;
+}
+
+.desktop .hi-my-name-is-andrea {
+  font-size: 40px;
+  position: absolute;
+}
+
+.desktop .welcome-text {
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 70px;
+}
+
+.explore {
+  position: absolute;
+  top: 320px;
+  left: 500px;
+  width: fit-content;
+}
+
+.desktop .space-cuties {
+  margin-left: 170px;
+  width: 1100px;
+  background-size: cover; 
+}
+
+.hover-components {
+  width: fit-content;
+  margin-top: -493px;
+  margin-left: 586px;
+  visibility: visible;
+}
+
+.responsive-about-link {
+  visibility: hidden;
+  color: #d3373b;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 800px) {
+
+  .space-cuties {
+    visibility: hidden;
+  }
+
+  .explore  {
+    top: 400px;
+    left: 0px;
+    width: fit-content;
+  }
+
+  .desktop .main-text {
+    margin: auto;
+    top: 50px;
+    left: 0px;
+  }
+
+  .desktop .welcome-text {
+    padding-top: 80px;
+    font-size: 20px;  
+  }
+
+  .hover-components {
+   visibility: hidden;
+  }
+  
+  .responsive-about-link {
+    visibility: visible;
+  }
+
+}
+
 .desktop-layout {
   animation: fadeIn 2s;
   -webkit-animation: fadeIn 2s;
@@ -55,53 +136,4 @@
   100% {
     opacity: 1;
   }
-}
-
-.desktop .main-text {
-  /* height: 1007px; */
-  position: relative;
-  width: 70%;
-  top: 240px;
-  left: 320px;
-  white-space: nowrap;
-
-
-}
-
-.desktop .hi-my-name-is-andrea {
-  font-size: 40px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-}
-
-.desktop .welcome-text {
-  font-size: 30px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 70px;
-}
-
-.explore {
-  position: absolute;
-  top: 320px;
-  left: 500px;
-  width: fit-content;
-}
-
-.desktop .space-cuties {
-  margin-left: 170px;
-  width: 1100px;
-  background-size: cover; 
-}
-
-.hover-components {
-  width: fit-content;
-  margin-top: -493px;
-  margin-left: 586px;
-}
-
-.landing-image-layout {
-  display: block;
 }

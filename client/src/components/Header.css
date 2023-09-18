@@ -1,4 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);
+.logo {
+    width: 150px;
+}
 
 .navbar {
     display: flex;
@@ -109,4 +111,19 @@
 
 .page-link:hover {
     text-decoration: underline;
+}
+
+@media only screen and (max-width: 800px) {
+    .about-link {
+        padding: 10px 5px;
+    }
+
+    .button {
+        width: 95px;
+    }
+    .logo {
+        width: 120px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
 }

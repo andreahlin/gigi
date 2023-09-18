@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './Hoverable.css'
-import { NAME_UNDERLINE, NAME_UNDERLINE_HIDDEN } from '../MediaUtil'
+import NAME_UNDERLINE from '../assets/landing-underline-3.gif'
+import NAME_UNDERLINE_HIDDEN from '../assets/landing-underline-hidden.png'
 import { Link } from 'react-router-dom'
 
 export default function Hoverable(props) {
