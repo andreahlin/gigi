@@ -30,7 +30,7 @@ export default function HomePage() {
               <Flower name='sketch'/>
             </div>
             <div className='deep-cuts-flower-layout'>
-              <Flower name='potpourri'/>
+              {/* <Flower name='potpourri'/> */}
             </div>
           </div>
           <div className='tech-world-layout'>
