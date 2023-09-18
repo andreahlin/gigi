@@ -52,3 +52,23 @@
     text-decoration: none;
     color: #32347a;
 }
+
+@media only screen and (max-width: 800px) {
+    .footer {
+        display: block;
+        width: 100%;
+        height: fit-content;
+        padding-bottom: 40px;
+        padding-top: 10px;
+    }
+
+    .hot-links {
+        justify-content: center;
+        margin: auto;
+        padding-bottom: 20px;
+    }
+
+    .email-info {
+        margin: auto;
+    }
+}

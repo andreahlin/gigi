@@ -1,6 +1,7 @@
 .element {
     padding: 10px;
     margin: 20px;
+    outline: 5px solid black; 
 }
 
 .element:hover .element-still {
@@ -40,3 +41,12 @@
     display: flex;
     justify-content: center;
 }
+
+@media only screen and (max-width: 800px) {
+    .animation-row {
+      /* display: block; */
+      /* width: 100%; */
+      /* margin: auto; */
+    }
+}
+
