@@ -17,7 +17,7 @@ export default function LandingPage() {
         <div className='main-text'>
           <p className='hi-my-name-is-andrea'>
             <span className='text-wrapper'>hi, my name is <br/></span>
-            <Link className="responsive-about-link" to="about"> andrea </Link>
+            <Link className='responsive-about-link' to='/about'>andrea</Link>
           </p>
           <div className="explore-container">
           <p className='welcome-text'>welcome to my digital home!</p>

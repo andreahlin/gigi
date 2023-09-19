@@ -43,7 +43,6 @@
   visibility: hidden;
   color: #d3373b;
   font-size: 40px;
-  text-decoration: none;
 }
 
 @media only screen and (max-width: 800px) {
@@ -65,7 +64,7 @@
   }
 
   .desktop .welcome-text {
-    padding-top: 80px;
+    margin-top: 90px;
     font-size: 20px;  
   }
 
@@ -75,8 +74,12 @@
   
   .responsive-about-link {
     visibility: visible;
+    text-decoration: none;
   }
 
+  .responsive-about-link:hover {
+    font-weight: bold;
+  }
 }
 
 .desktop-layout {
