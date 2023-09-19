@@ -69,7 +69,7 @@ export default function Software() {
             </div>
           </div>
           <br/>
-          <a className="github-link" target="_blank" href=" https://github.com/andreahlin">github</a>
+          <a className='github-link' target='_blank' rel='noopener noreferrer' href='https://github.com/andreahlin'>github</a>
         </div>
       </div>
     </div>
