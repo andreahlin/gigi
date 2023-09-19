@@ -15,6 +15,11 @@ export default function Hoverable(props) {
             imageOnHover = NAME_UNDERLINE
             className = props.name
             break;
+        default:
+            image = ''
+            imageOnHover = ''
+            className = props.name
+            break;
     }
 
     const [hover, setHover] = useState(false);

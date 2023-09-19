@@ -17,7 +17,7 @@ export default function HomePage() {
       <Header />
       <div className='home-layout'>
         <div className='background-image-layout'>
-          <img alt='space-image' src={image} width='700' />
+          <img alt='space-drawing' src={image} width='700' />
 
           <div className='art-world-layout'>
             <div className='animation-flower-layout'>

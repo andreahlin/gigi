@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useEffect } from 'react'
 import './Global.css'
 import './AnimationPage.css'
 import { Link } from 'react-router-dom'

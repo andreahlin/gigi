@@ -44,7 +44,7 @@ export default function Software() {
             </div>
             <div className='software-element' id='six'>
               <h2 className='project-name'>PROCEDURAL PLANETS </h2>
-              <p className='project-description'> Along with two classmates, I developed a world of <b>procedurally generated</b> planets that were generated procedurally and/or driven procedurally by sound. One of the planets is surrounded in water modeled from <b>Fractal Brownian Motion</b> noise. Check out the demo <a className='demo-link' target='_blank' href='https://www.youtube.com/watch?v=yWhc-ZxIrWA'> here</a>! </p> <p>2017</p>
+              <p className='project-description'> Along with two classmates, I developed a world of <b>procedurally generated</b> planets that were generated procedurally and/or driven procedurally by sound. One of the planets is surrounded in water modeled from <b>Fractal Brownian Motion</b> noise. Check out the demo <a className='demo-link' target='_blank' rel='noopener noreferrer' href='https://www.youtube.com/watch?v=yWhc-ZxIrWA'> here</a>! </p> <p>2017</p>
             </div>
           </div>
 

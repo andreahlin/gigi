@@ -3,7 +3,6 @@ const ANIMATION = 'animation/'
 const SKETCH = 'sketch/'
 const ZINE = 'zine/'
 const CODE = 'code/'
-const UX = 'ux/'
 
 export const FLYING_HOME_STILL_URL = CDNURL + ANIMATION + 'flying-still.png'
 export const GOODBYE_STILL_URL = CDNURL + ANIMATION + 'good-bye-still.png';

@@ -1,5 +1,5 @@
 {
-  "homepage": "https://andreahlin.github.io/gigi",
+  "homepage": "https://andreahlin.github.io",
   "name": "client",
   "version": "0.1.0",
   "private": true,
@@ -7,8 +7,6 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "lightbox.js-react": "^0.8.3",
-    "lightgallery": "^2.7.1",
     "photoswipe": "^5.4.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -24,7 +22,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build" 
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -46,6 +44,7 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "gh-pages": "^6.0.0"
+    "gh-pages": "^6.0.0",
+    "react-snap": "^1.23.0"
   }
 }
